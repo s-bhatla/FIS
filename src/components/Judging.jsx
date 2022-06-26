@@ -3,7 +3,9 @@ import React from 'react'
 const Judging = () => {
   return (
     <div>
-        <div className="heading">What's the Judging Criteria ?</div>
+        <div class="h-[5rem] w-max">
+        <div className="heading text-white text-3xl font-extrabold mt-[3rem] pl-[5rem] px-4 py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">What's the Judging Criteria ?</div>
+        </div>
         <div className="table mx-auto">
             <div className="grid grid-cols-2">
                 <div className="grid grid-row-3">

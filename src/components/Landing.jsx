@@ -5,7 +5,7 @@ import logo from "../assets/logo.png"
 
 export const Landing = () => {
   return (
-    <div className="landing sm:flex flex-row-reverse pl-10">
+    <div className="landing sm:flex flex-row-reverse px-auto">
       <div className="landing-img-div">
         <img className="landing-img mx-auto my-auto" src={landingImg} alt="Innovate IN48"></img>
       </div>
