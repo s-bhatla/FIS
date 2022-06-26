@@ -4,7 +4,7 @@ const Judging = () => {
   return (
     <div>
         <div class="h-[5rem] w-max max-w-[100vw]">
-        <div className="heading  text-white text-3xl font-extrabold mt-[3rem] bg-gradient-to-r from-sky-600 via-green-500 to-green-400">What's the Judging Criteria ?</div>
+        <div className="heading  text-white text-3xl py-4 font-extrabold mt-[3rem] bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHAT'S THE JUDGING CRITERA ?</div>
         </div>
         <div className="table mx-auto">
             <div className="grid grid-cols-2">
