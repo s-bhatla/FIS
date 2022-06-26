@@ -12,8 +12,8 @@ const Navbar = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className='shadow-md w-full fixed top-0 left-0 mb-12'>
-      <div className='md:flex items-center justify-between bg-black py-4 md:px-10 px-7'>
+    <div className='shadow-md w-full fixed top-0 left-0 mb-[2rem]'>
+      <div className='md:flex items-center justify-between bg-black py-4 md:px-10 px-4'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
           <span className='text-3xl text-indigo-600 mr-1 pt-2'>
@@ -48,11 +48,11 @@ const Navbar = () => {
               </div>
             ))
           }
-          <li key="contact" className='md:ml-6 text-md md:my-0 my-7 mr-[12rem]'>
+          <li key="contact" className='md:ml-6 text-md md:my-0 my-7 mx-[2rem]'>
                 <a href="/"className='text-white hover:text-gray-400 duration-500'>Contact Us</a>
               </li>
           <button>
-            <a href="#" class="text-md px-4 py-3 leading-none border-[0.2px] rounded-full mr-[4rem] text-black bg-white font-bold hover:bg-black hover:text-white">Register now</a>
+            <a href="#" class="text-md px-4 py-3 leading-none border-[0.2px] mr-[3rem] rounded-full text-black bg-white font-bold hover:bg-black hover:text-white">Register now</a>
           </button>
         </ul>
       </div>

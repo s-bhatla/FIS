@@ -6,7 +6,7 @@ const Prize = () => {
         <div class="h-[5rem] w-max max-w-[100vw]">
         <div class="text-white text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHAT'S IN IT FOR YOU?</div>
         </div>
-        <div class="flex flex-row flex-wrap mt-[4rem] justify-between ">
+        <div class="flex flex-row flex-wrap mt-[4rem] justify-between ml-[4rem]">
             <div className="">
                 <div className="text-white text-xl  mt-[4rem] font-semibold">
                 The winning team will:

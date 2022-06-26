@@ -6,8 +6,8 @@ const Participate = () => {
         <div class="h-[5rem] w-max max-w-[100vw]">
         <div class="text-white text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHO CAN PARTICIPATE?</div>
         </div>
-        <div class="flex flex-row flex-wrap mt-[4rem] justify-between mr-[5rem]">
-            <div className="">
+        <div class="flex flex-row flex-wrap mt-[4rem] max-w-[100vw] justify-between mr-[5rem]">
+            <div className="max-w-[40vw] ml-[4rem]">
                 <div className="text-white text-md  mt-[2rem]">
                 Startups with a technology stack that can solve horizontal problems - Customer onboarding, churn detection, customer loyalty, data marketplaces, DeFi stacks.
                 </div>
@@ -24,9 +24,7 @@ const Participate = () => {
                 Startups having innovating automation and integration platforms. 
                 </div>
             </div>
-                <div>
                     <div><img src={participate} alt="participate" /></div>
-                </div>
         </div>
     </div>
   )
