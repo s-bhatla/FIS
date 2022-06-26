@@ -52,7 +52,7 @@ const Navbar = () => {
                 <a href="/"className='text-white hover:text-gray-400 duration-500'>Contact Us</a>
               </li>
           <button>
-            <a href="#" class="text-md px-4 py-3 leading-none border-[0.2px] rounded-full mr-[8rem] text-black bg-white font-bold hover:bg-black hover:text-white">Register now</a>
+            <a href="#" class="text-md px-4 py-3 leading-none border-[0.2px] rounded-full mr-[4rem] text-black bg-white font-bold hover:bg-black hover:text-white">Register now</a>
           </button>
         </ul>
       </div>
