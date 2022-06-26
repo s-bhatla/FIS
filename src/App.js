@@ -1,10 +1,16 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import { Landing } from './components/Landing';
+import Judging from './components/Judging';
 
 function App() {
   return (
-    <div className="h-screen w-screen bg-black ">
+    <div className="App">
         <Navbar/>
+        <Landing />
+        <Judging />
+        <Footer/>
     </div>
   );
 }
