@@ -1,1 +1,26 @@
 
+body{
+  color: white;
+  background-color: black;
+}
+
+.landing-img{
+  width: 95%;
+}
+
+.landing-text{
+  width: 50%;
+}
+
+.cell{
+  background-color: #1d1d1d;
+  margin: 0.5em 2em 0.5em 0;
+  min-height: 4em;
+  max-width: 37vw;
+  display: flex;
+}
+
+.cell-text{
+  /* align-items: center; */
+}
+
