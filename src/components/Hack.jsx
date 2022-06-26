@@ -12,7 +12,7 @@ const Hack = () => {
                 <div>
                     <div><img src={data} className="max-w-[100vw]" alt="data" /></div>
                     <div class="text-white text-2xl font-semibold gap-1 mt-4 max-w-[100vw]">Data innovation</div>
-                    <div class="text-white text-sm mt-4 max-w-[100vw]">The financial sector is incredibly data intensive, and the challenge has been finding ways to harness the data to drive business growth. If you're a start-up focused on disrupting the way fintech uses data, register now for the IN48 data innovation ideation session.</div>
+                    <div class="text-white text-sm mt-4 max-w-xs">The financial sector is incredibly data intensive, and the challenge has been finding ways to harness the data to drive business growth. If you're a start-up focused on disrupting the way fintech uses data, register now for the IN48 data innovation ideation session.</div>
                 </div>
                 <div>
                     <div><img src={fintech} alt="data" /></div>
