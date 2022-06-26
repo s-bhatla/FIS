@@ -1,5 +1,8 @@
 import React from 'react'
 import RegisterButton from './RegisterButton'
+import fbimg from "../assets/fb-icon.png"
+import linkedinimg from '../assets/linkedin-icon.png'
+import twitterimg from '../assets/twitter-icon.png'
 
 function Footer() {
   return (
@@ -14,10 +17,10 @@ function Footer() {
             </div>
             <div className="connected mx-auto pt-6">
                 Stay Connected
-                <div className="socialimgs">
-                    <img src = ''></img>
-                    <img src = ''></img>
-                    <img src = ''></img>
+                <div className="socialimgs flex">
+                    <img src = {fbimg} width="32px" className='mx-auto'></img>
+                    <img src = {linkedinimg} width="32px" className='mx-auto'></img>
+                    <img src = {twitterimg} width="32px" className='mx-auto'></img>
                 </div>
             </div>
                 <div className='support mx-auto pt-6'>

@@ -2,6 +2,11 @@
 body{
   color: white;
   background-color: black;
+
+}
+
+.landing-img-div{
+  max-width: 100vw;
 }
 
 .landing-img{
@@ -24,3 +29,8 @@ body{
   /* align-items: center; */
 }
 
+@media (max-width: 640px) {
+  body{
+    font-size: 90%;
+  }
+}

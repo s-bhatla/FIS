@@ -1,63 +1,38 @@
 import React from 'react'
 const Navbar = () => {
   return (
-    <nav class="flex flex-row items-center justify-between flex-wrap bg-black p-6">
-      <div class="flex items-center flex-shrink-0 text-white mr-[4rem] pl-[4rem]">
-        <svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" width="69.427" height="29" viewBox="0 0 69.427 29">
-          <path id="Path_13" data-name="Path 13" d="M131.1,188.96a1.534,1.534,0,0,0-1.533-1.535H111.855a5.719,5.719,0,1,0,0,11.434h14.222a2.653,2.653,0,0,1,0,5.3H108.372a1.533,1.533,0,1,0,0,3.066h17.705a5.717,5.717,0,1,0,0-11.431H111.855a2.652,2.652,0,0,1,0-5.3h17.707a1.534,1.534,0,0,0,1.533-1.535" transform="translate(-62.505 -178.363)" fill="#fff" />
-          <path id="Path_14" data-name="Path 14" d="M94.875,176.325a2.231,2.231,0,1,0-2.231,2.231,2.231,2.231,0,0,0,2.231-2.231" transform="translate(-57.513 -174.094)" fill="#fff" />
-          <path id="Path_15" data-name="Path 15" d="M84.415,176.325a2.231,2.231,0,1,0-2.231,2.231,2.231,2.231,0,0,0,2.231-2.231" transform="translate(-54.163 -174.094)" fill="#fff" opacity="0.8" />
-          <path id="Path_16" data-name="Path 16" d="M73.953,176.325a2.231,2.231,0,1,0-2.23,2.231,2.231,2.231,0,0,0,2.23-2.231" transform="translate(-50.813 -174.094)" fill="#fff" opacity="0.6" />
-          <path id="Path_17" data-name="Path 17" d="M63.493,176.325a2.231,2.231,0,1,0-2.23,2.231,2.23,2.23,0,0,0,2.23-2.231" transform="translate(-47.463 -174.094)" fill="#fff" opacity="0.4" />
-          <path id="Path_18" data-name="Path 18" d="M53.033,176.325a2.231,2.231,0,1,0-2.23,2.231,2.23,2.23,0,0,0,2.23-2.231" transform="translate(-44.113 -174.094)" fill="#fff" opacity="0.2" />
-          <g id="Group_3" data-name="Group 3" transform="translate(0 9.063)">
-            <path id="Path_19" data-name="Path 19" d="M67.245,187.427c-.048,0-.094.009-.139.014v-.014H52.047c-5.982,0-10.035,3.916-10.035,9.9v8.366a1.672,1.672,0,1,0,3.344,0v-8.366c0-4.147,2.509-6.831,6.691-6.831H67.106v-.014c.046,0,.092.014.139.014a1.533,1.533,0,1,0,0-3.067" transform="translate(-42.012 -187.427)" fill="#fff" />
-            <path id="Path_20" data-name="Path 20" d="M49.394,201.266a1.534,1.534,0,0,0,1.534,1.535H66.263a1.534,1.534,0,0,0,0-3.068H50.928a1.534,1.534,0,0,0-1.534,1.534" transform="translate(-44.376 -191.368)" fill="#fff" />
-          </g>
-          <path id="Path_21" data-name="Path 21" d="M91.233,188.9v16.729a1.674,1.674,0,1,0,3.347,0V188.9a1.674,1.674,0,0,0-3.347,0" transform="translate(-57.775 -178.299)" fill="#fff" />
-        </svg>
-      </div>
-      <div class="block lg:hidden">
-    <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+  <div class="container flex flex-wrap justify-between items-center mx-auto">
+  <a href="https://flowbite.com/" class="flex items-center">
+      <img src="/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+      <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+  </a>
+  <div class="flex md:order-2">
+      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
+      <button data-collapse-toggle="mobile-menu-4" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-4" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
     </button>
   </div>
-      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto mt-1">
-        <div class="text-sm lg:flex-grow">
-          <a href="#responsive-header" class="block text-[1rem] mt-4 lg:inline-block lg:mt-0 lg:mr-[2rem] text-white hover:text-white mr-4">
-            Themes
-          </a>
-          <a href="#responsive-header" class="block text-[1rem] mt-4 lg:inline-block lg:mt-0 lg:mr-[2rem] text-white hover:text-white mr-4">
-            Your Challenge
-          </a>
-          <a href="#responsive-header" class="block text-[1rem] mt-4 lg:inline-block lg:mt-0 lg:mr-[2rem] text-white hover:text-white mr-4">
-            Process
-          </a>
-          <a href="#responsive-header" class="block text-[1rem] mt-4 lg:inline-block lg:mt-0 lg:mr-[2rem] text-white hover:text-white mr-4">
-            Event Info
-          </a>
-          <a href="#responsive-header" class="block text-[1rem] mt-4 lg:inline-block lg:mt-0 lg:mr-[2rem] text-white hover:text-white mr-4">
-            Parameters
-          </a>
-          <a href="#responsive-header" class="block text-[1rem] mt-4 lg:inline-block lg:mt-0 lg:mr-[2rem] text-white hover:text-white mr-4">
-            Prices
-          </a>
-          <a href="#responsive-header" class="block text-[1rem] mt-4 lg:inline-block lg:mt-0 lg:mr-[2rem] text-white hover:text-white mr-4">
-            Criteria
-          </a>
-          <a href="#responsive-header" class="block text-[1rem] mt-4 lg:inline-block lg:mt-0 lg:mr-[2rem] text-white hover:text-white mr-4">
-            Partners
-          </a>
-          <a href="#responsive-header" class="block text-[1rem] mt-4 lg:inline-block lg:mt-0 lg:mr-[2rem] mb-2 text-white hover:text-white">
-            Contact Us
-          </a>
-        </div>
-        <div>
-          <a href="#" class="inline-block text-md px-4 py-3 leading-none border rounded-full mr-[6rem] text-black bg-white font-bold  hover:text-white hover:bg-black hover:border-white">Register now</a>
-        </div>
-      </div>
-    </nav>
-
+  <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-4">
+    <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+      <li>
+        <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
   )
 }
 

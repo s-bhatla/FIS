@@ -5,14 +5,14 @@ import digital from "../assets/digital.png"
 const Hack = () => {
   return (
     <div class="overflow-y-hidden">
-        <div class="h-[5rem] w-[30rem]">
-        <div class="text-white text-3xl font-extrabold mt-[3rem] pl-[5rem] px-4 py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">THIS YEAR WE HACK FOR</div>
+        <div class="max-h-[100vh] max-w-[100vw]">
+        <div class="text-white text-3xl font-extrabold mt-[3rem] bg-gradient-to-r from-sky-600 via-green-500 to-green-400">THIS YEAR WE HACK FOR</div>
         </div>
-        <div class="flex flex-row flex-wrap mt-[4rem] justify-around">
+        <div class="flex flex-row flex-wrap mt-[4rem] justify-around max-w-[100vw]">
                 <div>
-                    <div><img src={data} alt="data" /></div>
-                    <div class="text-white text-2xl font-semibold gap-1 mt-4">Data innovation</div>
-                    <div class="text-white text-sm max-w-xs mt-4">The financial sector is incredibly data intensive, and the challenge has been finding ways to harness the data to drive business growth. If you're a start-up focused on disrupting the way fintech uses data, register now for the IN48 data innovation ideation session.</div>
+                    <div><img src={data} className="max-w-[100vw]" alt="data" /></div>
+                    <div class="text-white text-2xl font-semibold gap-1 mt-4 max-w-[100vw]">Data innovation</div>
+                    <div class="text-white text-sm mt-4 max-w-[100vw]">The financial sector is incredibly data intensive, and the challenge has been finding ways to harness the data to drive business growth. If you're a start-up focused on disrupting the way fintech uses data, register now for the IN48 data innovation ideation session.</div>
                 </div>
                 <div>
                     <div><img src={fintech} alt="data" /></div>
