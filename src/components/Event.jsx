@@ -4,9 +4,9 @@ const Event = () => {
   return (
     <div class="">
     <div class="h-[5rem] w-max max-w-[100vw]">
-    <div class="text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] sm:text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">ABOUT THIS INNOVATEIN48 EVENT</div>
+    <div class="text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">ABOUT THIS INNOVATEIN48 EVENT</div>
     </div>
-    <div class="flex flex-row  flex-wrap mt-[4rem] justify-between ml-[4rem]">
+    <div class="flex flex-row  flex-wrap justify-between ml-[4rem]">
             <div className=" max-w-[40vw]">
                 <div className="text-white text-md mt-[2rem]">
                 Join us for this 48-hour Ideathon and create a pitch deck to show how your innovative solutions can meet the needs of current industry challenges. Propose a standalone solution, or leverage an integration with current FIS APIs and products.
