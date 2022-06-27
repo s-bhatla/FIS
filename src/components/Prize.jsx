@@ -4,7 +4,7 @@ const Prize = () => {
   return (
     <div class="">
         <div class="h-[5rem] w-max max-w-[100vw]">
-        <div class="text-white text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHAT'S IN IT FOR YOU?</div>
+        <div class="pl-[4rem] pr-[1rem] text-white text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHAT'S IN IT FOR YOU?</div>
         </div>
         <div class="flex flex-row flex-wrap mt-[4rem] justify-between ml-[4rem]">
             <div className="">
