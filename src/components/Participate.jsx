@@ -4,7 +4,7 @@ const Participate = () => {
   return (
     <div class="">
         <div class="h-[5rem] w-max max-w-[100vw] mb-8">
-        <div class="text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHO CAN PARTICIPATE?</div>
+        <div class="font-titilium text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-4xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHO CAN PARTICIPATE?</div>
         </div>
         <div class="flex flex-row flex-wrap max-w-[100vw] justify-between mx-auto ml-4 sm:ml-[4rem]">
             <div className="sm:max-w-[40vw] mb-12">

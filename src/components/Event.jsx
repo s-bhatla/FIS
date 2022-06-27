@@ -4,7 +4,7 @@ const Event = () => {
   return (
     <div class="">
     <div class="h-[5rem] w-max max-w-[100vw]">
-    <div class="text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">ABOUT THIS INNOVATEIN48 EVENT</div>
+    <div class="font-titilium text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-4xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">ABOUT THIS INNOVATEIN48 EVENT</div>
     </div>
     <div class="flex flex-row  flex-wrap justify-between sm:ml-[4rem] mt-8">
             <div className=" sm:max-w-[40vw] mx-4">

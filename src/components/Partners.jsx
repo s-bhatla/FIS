@@ -5,7 +5,7 @@ const Partners = () => {
   return (
     <div class="">
         <div class="h-[5rem] w-max max-w-[100vw]">
-        <div class="text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">SPECIAL THANKS TO OUR PARTNERS</div>
+        <div class="font-titilium text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-4xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">SPECIAL THANKS TO OUR PARTNERS</div>
         </div>
         <div class="flex flex-wrap mt-16 mb-12 sm:ml-16">
             <img src={aws} alt="aws" class="h-[5rem] w-[7rem] sm:mr-[4rem] mb-8 mx-auto"></img>
