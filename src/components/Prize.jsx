@@ -2,13 +2,13 @@ import React from 'react'
 import prize from '../assets/prize.png'
 const Prize = () => {
   return (
-    <div class="">
+    <div>
         <div class="h-[5rem] w-max max-w-[100vw]">
-        <div class="pl-[4rem] pr-[1rem] text-white text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHAT'S IN IT FOR YOU?</div>
+        <div class="text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-3xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHAT'S IN IT FOR YOU?</div>
         </div>
-        <div class="flex flex-row flex-wrap mt-[4rem] justify-between ml-[4rem]">
-            <div className="">
-                <div className="text-white text-xl  mt-[4rem] font-semibold">
+        <div class="flex flex-row flex-wrap justify-between mx-auto ml-4 sm:ml-[4rem]">
+            <div className="my-auto">
+                <div className="text-white text-xl  mt-[3rem] font-semibold">
                 The winning team will:
                 </div>
                 <div className="text-white text-md  mt-[1rem]">
@@ -24,7 +24,7 @@ const Prize = () => {
                  • Win cloud credits worth US$50K - US$150K 
                 </div>
             </div>
-                <div>
+                <div className="mr-12 mt-4">
                     <div><img src={prize} alt="participate" /></div>
                 </div>
         </div>
