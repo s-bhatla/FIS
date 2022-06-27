@@ -13,7 +13,7 @@ const Navbar = () => {
   let [open, setOpen] = useState(false);
   return (
     <div className='shadow-md w-full fixed top-0 left-0 mb-[2rem]'>
-      <div className='md:flex items-center justify-between bg-black py-4 md:px-10 px-4'>
+      <div className='lg:flex items-center justify-evenly bg-black py-4 lg:mx-1'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
           <span className='text-3xl text-indigo-600 mr-1 pt-2'>
@@ -34,25 +34,25 @@ const Navbar = () => {
           </span>
         </div>
 
-        <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden bg-black'>
+        <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer lg:hidden bg-black'>
           <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
         </div>
 
-        <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:bg-black md:static bg-black md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12 ' : 'top-[-490px]'}`}>
+        <ul className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:bg-black lg:static bg-black lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12 ' : 'top-[-490px]'}`}>
           {
             Links.map((link) => (
               <div>
-              <li key={link.name} className='md:ml-6 text-md md:my-0 my-7'>
+              <li key={link.name} className='xl:ml-6 mx-[0.5rem] text-md lg:my-0 my-7'>
                 <a href={link.link} className='text-white hover:text-gray-400 duration-500'>{link.name}</a>
               </li>
               </div>
             ))
           }
-          <li key="contact" className='md:ml-6 text-md md:my-0 my-7 mx-[2rem]'>
+          <li key="contact" className='lg:ml-4 text-md lg:my-0 my-7 mx-[1rem]'>
                 <a href="/"className='text-white hover:text-gray-400 duration-500'>Contact Us</a>
               </li>
           <button>
-            <a href="/" class="text-md px-4 py-3 leading-none border-[0.2px] mr-[3rem] rounded-full text-black bg-white font-bold hover:bg-black hover:text-white">Register now</a>
+            <a href="#" class="text-md inline px-4 py-3 leading-none border-[0.2px] rounded-full text-black bg-white font-bold hover:bg-black hover:text-white">Register now</a>
           </button>
         </ul>
       </div>
