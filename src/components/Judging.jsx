@@ -3,8 +3,8 @@ import React from 'react'
 const Judging = () => {
   return (
     <div>
-        <div class="h-[5rem] w-max max-w-[100vw]">
-        <div className="sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-white sm:text-3xl py-4 font-extrabold mt-[3rem] bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHAT'S THE JUDGING CRITERA ?</div>
+        <div class="h-[5rem] w-max max-w-[100vw] mb-[4rem]">
+        <div className="sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-white text-3xl py-4 font-extrabold mt-[3rem] bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHAT'S THE JUDGING CRITERA ?</div>
         </div>
         <div className="table sm:ml-[4rem] ml-[1rem]">
             <div className="flex flex-col">
