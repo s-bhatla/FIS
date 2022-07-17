@@ -2,6 +2,7 @@
 body{
   color: white;
   background-color: black;
+  font-size: 125%;
 
 }
 
@@ -27,9 +28,7 @@ body{
   max-width: 60vw;
 }
 
-.cell-text{
-  /* align-items: center; */
-}
+
 
 @media (max-width: 640px) {
   body{

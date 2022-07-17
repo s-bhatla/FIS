@@ -7,7 +7,7 @@ const Judging = () => {
         <div className="font-titilium text-white text-4xl py-4 font-extrabold mt-[3rem] text-center">WHAT'S THE JUDGING CRITERA ?</div>
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
       </div>
-      <div className="table sm:ml-[4rem] ml-[1rem]">
+      <div className="table mx-auto">
         <div className="flex flex-col">
           <div className="flex flex-row">
             <div className="xx l cell font-bold text-md">

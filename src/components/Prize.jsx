@@ -9,19 +9,19 @@ const Prize = () => {
         </div>
         <div class="flex flex-row flex-wrap justify-between mx-auto ml-4 sm:ml-[4rem]">
             <div className="my-auto">
-                <div className="text-white text-xl  mt-[3rem] font-semibold">
+                <div className="text-white mt-[3rem] font-semibold">
                 The winning team will:
                 </div>
-                <div className="text-white text-md  mt-[1rem]">
+                <div className="text-white mt-[1rem]">
                  • Having the oppurtunity to work with FIS to build POC 
                 </div>
-                <div className="text-white text-md  mt-[1rem]">
+                <div className="text-white mt-[1rem]">
                  • Get a fast-track application for the FIS Accelerator program
                 </div>
-                <div className="text-white text-md  mt-[1rem]">
+                <div className="text-white mt-[1rem]">
                  • Receive visiblity wtih the FIS Alliance and FIS Ventures programs 
                 </div>
-                <div className="text-white text-md  mt-[1rem]">
+                <div className="text-white  mt-[1rem]">
                  • Win cloud credits worth US$50K - US$150K 
                 </div>
             </div>

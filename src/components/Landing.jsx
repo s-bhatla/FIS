@@ -1,6 +1,4 @@
 import React from "react";
-import RegisterButton from "./RegisterButton";
-import landingImg from "../assets/landing-small.png"
 import logo from "../assets/logo.png"
 
 export const Landing = () => {
@@ -13,8 +11,8 @@ export const Landing = () => {
           <div className="logo">
             <img className="pb-3" src={logo} alt="Innovate India IN48 Partner Edition"></img>
           </div>
-          <div className="title font-extrabold text-5xl pb-4">INNOVATE THE NEXT FINTECH DISRUPTION</div>
-          <div className="date pb-3 font-semibold text-lg">August 12-20</div>
+          <div className=" font-titilium title font-extrabold text-5xl pb-4">INNOVATE THE NEXT FINTECH DISRUPTION</div>
+          <div className="date pb-3 text-3xl font-bold text-lg">August 26-September 3</div>
           <div className="summary pb-3">
             The world is changing and changing fast. FinTech is going to lead the
             way for a better tomorrow. FIS is inviting APAC startups to join the

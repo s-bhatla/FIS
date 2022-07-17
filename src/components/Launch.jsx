@@ -12,7 +12,7 @@ const Launch = () => {
     <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
     </div>
         <div className="mt-8 mx-auto">
-            <div className="sm:max-w-[50vw] mx-auto px-4 text-center mb-[2rem] text-white text-sm">Two days launch event is a prelude to InnovateIN48 Ideathon. The event will cover an introduction to the FIS innovation ecosystem. Learn about FIS products and APIs, participate in various hands-on workshops. This event is designed to help start-ups prepare for the Ideathon.</div>
+            <div className="sm:max-w-[50vw] mx-auto px-4 text-center mb-[2rem] text-white">Two days launch event is a prelude to InnovateIN48 Ideathon. The event will cover an introduction to the FIS innovation ecosystem. Learn about FIS products and APIs, participate in various hands-on workshops. This event is designed to help start-ups prepare for the Ideathon.</div>
             
         </div>
         <div class="flex flex-row flex-wrap my-auto justify-around mx-auto sm:ml-[4rem] sm:mr-[5rem]">
@@ -37,7 +37,9 @@ const Launch = () => {
                     <div class="text-white text-2xl font-semibold gap-1 mt-4">MINUTES</div>
                 </div>
          </div>
-         <div className='mx-auto mt-12 text-center'><RegisterButton /></div>
+         <div className='mx-auto mt-12 text-center'>
+         <a href="#" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans">Register Now</a>
+         </div>
     </div>
     )
 }

@@ -13,35 +13,35 @@ const Event = () => {
                 </div>
                 <div className="flex flex-wrap justify-between content-center">
                     <div className='min-w-[16rem]'>
-                    <div class="text-2xl font-semibold gap-1 mt-4 text-[#4BCD3E]">KICK OFF</div>
-                    <div class="text-white text-sm mt-4">August 20 - 21</div>
-                    <div class="text-white text-sm mt-1">10:00 a.m. to 8:00 p.m. (IST)</div>
+                    <div class="font-semibold gap-1 mt-4 text-[#4BCD3E]">KICK OFF</div>
+                    <div class="text-white  mt-4">August 20 - 21</div>
+                    <div class="text-white  mt-1">10:00 a.m. to 8:00 p.m. (IST)</div>
                     </div>
                     <div className='min-w-[16rem]'>
-                    <div class="text-2xl font-semibold gap-1 mt-4 text-[#4BCD3E]">IDEATHON KICKOFF</div>
-                    <div class="text-white text-sm mt-4">August 26</div>
-                    <div class="text-white text-sm mt-1">12:00 p.m. (IST)</div>
-                    </div>
-                </div>
-                <div className="flex flex-wrap justify-between content-center mt-4"> 
-                    
-                    <div className='min-w-[16rem]'>
-                    <div class="text-2xl font-semibold gap-1 mt-4 text-[#4BCD3E]">IDEATHON</div>
-                    <div class="text-white text-sm mt-4">August 27 8:00 a.m. -</div>
-                    <div class="text-white text-sm mt-1">August 29 8:00 a.m. (IST)</div>
-                    </div>
-                    <div className='min-w-[16rem]'>
-                    <div class="text-2xl font-semibold gap-1 mt-4 text-[#4BCD3E]">DEMO DAY</div>
-                    <div class="text-white text-sm mt-4">August 31 - September 2</div>
-                    <div class="text-white text-sm mt-1">10:00 a.m. to 8:00 p.m.(IST)</div>
+                    <div class="font-semibold gap-1 mt-4 text-[#4BCD3E]">IDEATHON KICKOFF</div>
+                    <div class="text-white mt-4">August 26</div>
+                    <div class="text-white mt-1">12:00 p.m. (IST)</div>
                     </div>
                 </div>
                 <div className="flex flex-wrap justify-between content-center mt-4"> 
                     
                     <div className='min-w-[16rem]'>
-                    <div class="text-2xl font-semibold gap-1 mt-4 text-[#4BCD3E]">CLOSING CEREMONY</div>
-                    <div class="text-white text-sm mt-4">September 3</div>
-                    <div class="text-white text-sm mt-1">10:00 a.m. to 12:00 p.m.(IST)</div>
+                    <div class="font-semibold gap-1 mt-4 text-[#4BCD3E]">IDEATHON</div>
+                    <div class="text-white mt-4">August 27 8:00 a.m. -</div>
+                    <div class="text-white mt-1">August 29 8:00 a.m. (IST)</div>
+                    </div>
+                    <div className='min-w-[16rem]'>
+                    <div class="font-semibold gap-1 mt-4 text-[#4BCD3E]">DEMO DAY</div>
+                    <div class="text-white  mt-4">August 31 - September 2</div>
+                    <div class="text-white  mt-1">10:00 a.m. to 8:00 p.m.(IST)</div>
+                    </div>
+                </div>
+                <div className="flex flex-wrap justify-between content-center mt-4"> 
+                    
+                    <div className='min-w-[16rem]'>
+                    <div class="font-semibold gap-1 mt-4 text-[#4BCD3E]">CLOSING CEREMONY</div>
+                    <div class="text-white mt-4">September 3</div>
+                    <div class="text-white mt-1">10:00 a.m. to 12:00 p.m.(IST)</div>
                     </div>
                 </div>
             </div>
