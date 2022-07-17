@@ -3,6 +3,7 @@ import RegisterButton from './RegisterButton'
 import fbimg from "../assets/fb-icon.png"
 import linkedinimg from '../assets/linkedin-icon.png'
 import twitterimg from '../assets/twitter-icon.png'
+import instaimg from '../assets/insta_icon.png'
 
 function Footer() {
   return (
@@ -13,14 +14,15 @@ function Footer() {
                 <div className='text-2xl font-bolder mb-4'>HAVE ANY QUESTIONS?</div>
                 <div className='font-light text-sm py-6'>Send all your Questions to
                 <div className='text-base font-normal'>IN48Partner@fisglobal.com</div></div>
-                <div className='sm:text-left text-center'><RegisterButton /></div>
             </div>
             <div className="connected mx-auto pt-6">
-                Stay Connected
-                <div className="socialimgs flex">
-                    <img src = {fbimg} width="32px" className='mx-auto'></img>
-                    <img src = {linkedinimg} width="32px" className='mx-auto'></img>
-                    <img src = {twitterimg} width="32px" className='mx-auto'></img>
+                <div className=''>Stay Connected</div>
+                <div className="socialimgs flex justify-between">
+                    <img src = {fbimg} width="32px" className='mr-1 my-2'></img>
+                    <img src = {linkedinimg} width="32px" className='mr-1 my-2'></img>
+                    <img src = {twitterimg} width="32px" className='mr-1 my-2'></img>
+                    <img src = {instaimg} width="32px" className='mr-1 my-2'></img>
+
                 </div>
             </div>
                 <div className='support mx-auto pt-6'>

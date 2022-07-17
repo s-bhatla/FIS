@@ -1,19 +1,17 @@
 import React, { useState } from 'react'
 const Navbar = () => {
   let Links = [
-    { name: "Themes", link: "/" },
     { name: "Your Challenge", link: "/" },
-    { name: "Process", link: "/" },
-    { name: "Event Info", link: "/" },
-    { name: "Parameters", link: "/" },
-    { name: "Prices", link: "/" },
+    { name: "About Event", link: "/" },
+    { name: "Awards", link: "/" },
     { name: "Criteria", link: "/" },
     { name: "Partners", link: "/" },
+    { name: "Contact Us", link: "/" }
   ];
   let [open, setOpen] = useState(false);
   return (
     <div className='shadow-md w-full fixed top-0 left-0 mb-[2rem]'>
-      <div className='lg:flex items-center justify-evenly bg-black py-4 lg:mx-1'>
+      <div className='lg:flex items-center justify-evenly bg-black py-4'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
           <span className='text-3xl text-indigo-600 mr-1 pt-2'>
@@ -52,7 +50,10 @@ const Navbar = () => {
                 <a href="/"className='text-white hover:text-gray-400 duration-500'>Contact Us</a>
               </li>
           <button>
-            <a href="#" class="text-md inline px-4 py-3 leading-none border-[0.2px] rounded-full text-black bg-white font-bold hover:bg-black hover:text-white">Register now</a>
+            <a href="#" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans">Launch Event</a>
+          </button>
+          <button>
+            <a href="#" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black bg-white font-bold hover:bg-black hover:text-white btn-trans">Find out more</a>
           </button>
         </ul>
       </div>
