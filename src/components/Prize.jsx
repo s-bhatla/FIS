@@ -3,8 +3,9 @@ import prize from '../assets/prize.png'
 const Prize = () => {
   return (
     <div>
-        <div class="h-[5rem] w-max max-w-[100vw]">
-        <div class="font-titilium text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-4xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">WHAT'S IN IT FOR YOU?</div>
+        <div class="h-[5rem] w-max max-w-[100vw] mx-auto">
+        <div class="font-titilium text-white text-4xl font-extrabold mt-[3rem] py-4 text-center ">WHAT'S IN IT FOR YOU?</div>
+        <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
         </div>
         <div class="flex flex-row flex-wrap justify-between mx-auto ml-4 sm:ml-[4rem]">
             <div className="my-auto">

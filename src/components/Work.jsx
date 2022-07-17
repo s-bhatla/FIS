@@ -2,12 +2,11 @@ import React from "react";
 const Work = () => {
   return (
     <div class="">
-      <div class="h-[5rem] w-max max-w-[100vw]">
-        <div class="font-titilium text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-4xl font-extrabold mt-[3rem] py-4 bg-gradient-to-r from-sky-600 via-green-500 to-green-400">
-          HOW DOES THIS WORK?
-        </div>
-      </div>
-      <div class="flex flex-row flex-wrap mt-8 justify-between mx-4 sm:ml-[4rem] sm:mr-[5rem]">
+    <div class="h-[5rem] w-max max-w-[100vw] mx-auto">
+    <div class="font-titilium text-white text-4xl font-extrabold mt-[3rem] py-4 text-center">HOW DOES THIS WORK?</div>
+    <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
+    </div>
+    <div class="flex flex-row flex-wrap mt-8 justify-between mx-4 sm:ml-[4rem] sm:mr-[5rem]">
         <div class="my-auto">
           <div className="text-white text-md sm:max-w-[40vw] mt-[2rem]">
             To celebrate our culture of co-creation, innovation and

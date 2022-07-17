@@ -11,6 +11,7 @@ import Work from './components/Work';
 import Footer from './components/Footer';
 import { Landing } from './components/Landing';
 import Judging from './components/Judging';
+import Launch from './components/Launch';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Participate/> 
         <Prize/>
         <Judging />
+        <Launch/>
         <Partners/>
         <Footer/>
     </div>
