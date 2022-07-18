@@ -10,9 +10,9 @@ function Footer() {
     <div>
         <div className='grid sm:grid-cols-3 gap-4 pb-20 '>
             <div className="contactus mx-auto pl-4 pt-6">
-                <div className='text-2xl font-bolder mb-4'>HAVE ANY QUESTIONS?</div>
-                <div className='font-light text-sm py-6'>Send your questions to
-                <div className='text-base text-xl font-normal'>IN48Partner@fisglobal.com</div></div>
+                <div className='font-titilium text-[30px] font-extrabold mb-4'>HAVE ANY QUESTIONS?</div>
+                <div className='font-light text-[16px] py-6'>Send your questions to
+                <div className='text-[20px] font-normal'>IN48Partner@fisglobal.com</div></div>
             </div>
             <div className="connected mx-auto pt-6">
                 <div className=''>Stay Connected</div>
@@ -31,7 +31,7 @@ function Footer() {
                 </div>
         </div>
         <div className="copyright text-center font-light text-sm py-6">
-            © FIS 2022. Advancing the way the world pays, banks and invests™
+            © FIS 2022
         </div>
     </div>
     </footer>
