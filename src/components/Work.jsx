@@ -36,7 +36,7 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div class="flex flex-row flex-wrap mt-[2rem] justify-around mx-auto sm:ml-[4rem] event-times">
+      <div class="flex flex-row flex-wrap mt-[2rem] justify-center sm:justify-between mx-auto sm:ml-[4rem] event-times">
         <div>
           <div class="text-[24px] font-semibold gap-1 mt-4 text-[#4BCD3E]">
             IDENTIFY

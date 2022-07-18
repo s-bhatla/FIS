@@ -49,7 +49,7 @@ body{
 .work-div{
   background: rgb(0,151,117);
   background: linear-gradient(90deg, rgba(0,151,117,1) 0%, rgba(40,91,197,1) 100%);
-  padding: 2rem 3.5rem ;
+  padding: 1rem 3.5rem ;
   margin-left: auto;
   margin-top: auto;
   margin-right: auto;
@@ -103,4 +103,8 @@ body{
   .navbar-media{
     margin-right: 10.5rem;
   }
+}
+
+.eventimg{
+  height: 75vh;
 }
