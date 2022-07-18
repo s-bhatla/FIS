@@ -3,7 +3,6 @@ body{
   color: white;
   background-color: black;
   font-size: 125%;
-
 }
 
 /* .landing-text{
@@ -20,12 +19,12 @@ body{
 }
 
 .l {
-  min-width: 20vw;
-  max-width: 30vw;
+  min-width: 35vw;
+  max-width: 35vw;
 }
 .r{
-  min-width: 60vw;
-  max-width: 60vw;
+  min-width: 55vw;
+  max-width: 55vw;
 }
 
 
@@ -33,6 +32,9 @@ body{
 @media (max-width: 640px) {
   body{
     font-size: 90%;
+  }
+  .event-times{
+    text-align: center;
   }
 }
 
@@ -71,3 +73,20 @@ body{
   background-repeat: no-repeat;
 }
 
+@media (max-width: 330px) {
+  .margintop-small{
+    margin-top: 6rem;
+  }
+  .margintop-small-prize{
+    margin-top: 2rem;
+  }
+  .margintop-participate{
+    margin-top: 2.5rem;
+  }
+  .margintop-event{
+    margin-top: 4rem;
+  }
+  .margin-top-partners{
+    margin-top: 9rem;
+  }
+}

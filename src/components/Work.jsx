@@ -24,7 +24,7 @@ const Work = () => {
           </div>
         </div>
         <div className="work-div">
-          <div className="heading py-[1.2rem] font-titilium text-3xl ml-[-1.25rem]">
+          <div className="heading py-[1rem] font-titilium text-3xl ml-[-1.25rem]">
             SUBMISSION CHECKLIST
           </div>
           <div className="work-checklist text-2xl">
@@ -36,7 +36,7 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div class="flex flex-row flex-wrap mt-[2rem] justify-between mx-4 sm:ml-[4rem]">
+      <div class="flex flex-row flex-wrap mt-[2rem] justify-between mx-4 sm:ml-[4rem] event-times">
         <div>
           <div class="text-2xl font-semibold gap-1 mt-4 text-[#4BCD3E]">
             IDENTIFY
@@ -58,7 +58,7 @@ const Work = () => {
             participating start-ups. Join FIS partner workshops.
           </div>
         </div>
-        <div className="mr-16">
+        <div className="">
           <div class="text-2xl font-semibold gap-1 mt-4  text-[#4BCD3E]">
             SUBMIT
           </div>

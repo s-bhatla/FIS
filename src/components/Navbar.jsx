@@ -9,7 +9,7 @@ const Navbar = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className='shadow-md w-full fixed top-0 left-0 mb-[2rem]'>
+    <div className='shadow-md w-[100vw] fixed top-0 left-0 mb-[2rem]'>
       <div className='lg:flex items-center justify-evenly bg-black py-4'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
@@ -27,7 +27,6 @@ const Navbar = () => {
               </g>
               <path id="Path_21" data-name="Path 21" d="M91.233,188.9v16.729a1.674,1.674,0,1,0,3.347,0V188.9a1.674,1.674,0,0,0-3.347,0" transform="translate(-57.775 -178.299)" fill="#fff" />
             </svg>
-
           </span>
         </div>
 

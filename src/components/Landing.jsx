@@ -7,7 +7,7 @@ export const Landing = () => {
       {/* <div className="landing-img-div">
         <img className="landing-img mx-auto my-auto" src={landingImg} alt="Innovate IN48"></img>
       </div> */}
-      <div className="landing-text sm:max-w-[45vw] my-auto md:mr-auto">
+      <div className="landing-text sm:max-w-[45vw] my-auto mx-auto md:mr-auto md:ml-[0.5rem]">
           <div className="logo">
             <img className="pb-3" src={logo} alt="Innovate India IN48 Partner Edition"></img>
           </div>
