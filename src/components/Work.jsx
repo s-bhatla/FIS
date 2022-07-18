@@ -9,18 +9,10 @@ const Work = () => {
     <div class="flex flex-row flex-wrap mt-8 justify-between mx-4 sm:ml-[4rem] sm:mr-[5rem]">
         <div class="my-auto">
           <div className="text-white text-[16px] sm:max-w-[40vw] mt-[2rem]">
-            To celebrate our culture of co-creation, innovation and
-            collaboration, we invite you to be a part of the virtual FIS
-            INNOVATEIN48 Ideathon. This event encourages experiential learning
-            and harnesses the possibilities of emerging technology.
+          To celebrate our culture of co-creation, innovation and collaboration, we invite you to be a part of the virtual FIS InnovateIN48 Ideathon. This event encourages experiential learning and harnesses the possibilities of emerging technology.
           </div>
           <div className="text-white text-[16px] sm:max-w-[40vw] mt-[2rem] pb-[3rem]">
-            If you're an APAC-based start-up whose solutions align with the
-            event's themes (Data innovation, AI in fintech, and Digital assets
-            and blockchain) this event is the place to be. Bring your passion
-            for ideation, prototyping and fintech solutions to the table. Your
-            pitch deck should explain how your IP can work within the FIS
-            ecosystem to solve current industry challenges.
+          If you're an APAC-based start-up whose solutions align with the event's themes (data innovation, AI in fintech, and digital assets) this event is the place to be. Bring your passion for ideation, prototyping and fintech solutions to the table. Your pitch deck should explain how your solution can work within the FIS ecosystem to solve current industry challenges.
           </div>
         </div>
         <div className="work-div">
@@ -63,11 +55,7 @@ const Work = () => {
             SUBMIT
           </div>
           <div class="text-white text-[16px] max-w-[20rem] mt-4">
-            Submissions will include a pitch deck, describing a specific problem
-            statement and how the partner’s IP(standalone or via FIS
-            integration) can bring innovative solutions to the table. Start-up
-            can also suggest new FIS APIs that may contribute to enhancing the
-            solution further.
+          Submissions will include a pitch deck, describing a specific problem statement and how the partner’s solution(standalone or via FIS integration) can bring innovative solutions to the table. Start-up can also suggest new FIS APIs that may contribute to enhancing the solution further.
           </div>
         </div>
       </div>

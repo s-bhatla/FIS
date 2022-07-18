@@ -13,16 +13,16 @@ const Participate = () => {
                 Startups with a technology stack that can solve horizontal problems - Customer onboarding, churn detection, customer loyalty, data marketplaces, DeFi stacks.
                 </div>
                 <div className="text-white text-md  mt-[1rem]">
-                FinTech Startups with innovative business models that can augment FIS offering and want broader reach. 
+                Fintech start-ups with innovative business models that can augment FIS offering and want broader reach.
                 </div>
                 <div className="text-white text-md  mt-[1rem]">
                 Startups aspiring to build products and platforms leveraging FIS API’s.
                 </div>
                 <div className="text-white text-md mt-[1rem]">
-                Group of startups collaborating and providing new capabilities. Example : Satellite imaging, Drone startups and radar startup collaborate and provide alternate data for commodities markets. 
+                A group of start-ups collaborating and providing new capabilities. For example: Satellite imaging, drone start-ups and a radar start-up collaborate and provide alternate data for commodities markets. 
                 </div>
                 <div className="text-white text-md mt-[1rem]">
-                Startups having innovating automation and integration platforms. 
+                Start-ups having innovating automation and integration platforms.
                 </div>
             </div>
                     <div className="mr-12"><img src={participate} alt="participate" /></div>

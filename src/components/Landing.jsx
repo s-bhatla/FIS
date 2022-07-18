@@ -12,13 +12,9 @@ export const Landing = () => {
             <img className="pb-3" src={logo} alt="Innovate India IN48 Partner Edition"></img>
           </div>
           <div className=" font-titilium font-extrabold text-[48px] leading-none pb-2">INNOVATE THE NEXT FINTECH DISRUPTION</div>
-          <div className="date pb-3 text-[26px] font-bold">August 26-September 3</div>
+          <div className="date pb-3 text-[26px] font-semibold">August 26 - September 3</div>
           <div className="summary pb-3 text-[16px]">
-            The world is changing and changing fast. FinTech is going to lead the
-            way for a better tomorrow. FIS is inviting APAC startups to join the
-            journey to create the next FinTech disruption. Join 48 hours Ideathon to
-            innovate around Data, AI and Web 3. Create standalone solutions or
-            integrate with FIS ecosystem to build FinTech future.
+          The world is changing and changing fast. Fintech is going to lead the way to a better tomorrow. FIS is inviting APAC start-ups to join the journey to create the next fintech disruption. Join this 48-hour Ideathon to innovate around data, AI and Web3. Create standalone solutions or integrate with the FIS ecosystem to build the future of fintech..
           </div>
           {/* <div className="reg-btn py-3 sm:pb-0"><RegisterButton/></div> */}
       </div>

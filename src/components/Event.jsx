@@ -16,7 +16,7 @@ const Event = () => {
             challenges. Propose a standalone solution, or leverage an
             integration with current FIS APIs and products.
           </div>
-          <div className="flex flex-wrap justify-around content-center event-times text-[18px]">
+          <div className="flex flex-wrap justify-between content-center event-times text-[18px]">
             <div className="min-w-[16rem]">
               <div class="font-semibold gap-1 mt-4 text-[#4BCD3E] text-[24px]">
                 KICK OFF
@@ -32,7 +32,7 @@ const Event = () => {
               <div class="text-white mt-1">12:00 p.m. (IST)</div>
             </div>
           </div>
-          <div className="flex flex-wrap justify-around content-center mt-4 event-times text-[18px]">
+          <div className="flex flex-wrap justify-between content-center mt-4 event-times text-[18px]">
             <div className="min-w-[16rem]">
               <div class="font-semibold gap-1 mt-4 text-[#4BCD3E] text-[24px]">
                 IDEATHON
