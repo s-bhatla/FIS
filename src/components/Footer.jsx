@@ -18,10 +18,10 @@ function Footer() {
             <div className="connected mx-auto pt-6">
                 <div className=''>Stay Connected</div>
                 <div className="socialimgs flex justify-between">
-                    <img src = {fbimg} width="32px" className='mr-1 my-2'></img>
-                    <img src = {linkedinimg} width="32px" className='mr-1 my-2'></img>
-                    <img src = {twitterimg} width="32px" className='mr-1 my-2'></img>
-                    <img src = {instaimg} width="32px" className='mr-1 my-2'></img>
+                    <img src = {fbimg} width="32px" className='mr-2 my-2'></img>
+                    <img src = {linkedinimg} width="32px" className='mr-2 my-2'></img>
+                    <img src = {twitterimg} width="32px" className='mr-2 my-2'></img>
+                    <img src = {instaimg} width="32px" className='mr-2 my-2'></img>
 
                 </div>
             </div>
