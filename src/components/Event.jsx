@@ -1,7 +1,7 @@
 import event from "../assets/event.png";
 const Event = () => {
   return (
-    <div class="">
+    <div id="event">
       <div class="h-[5rem] w-max max-w-[100vw] mx-auto">
         <div class="font-titilium text-white sm:pl-[4rem] sm:pr-[1rem] px-[1rem] text-4xl font-extrabold mt-[3rem] py-4 text-center">
           ABOUT THIS INNOVATEIN48 EVENT

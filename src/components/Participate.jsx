@@ -2,7 +2,7 @@ import React from 'react'
 import participate from '../assets/participate.png'
 const Participate = () => {
   return (
-    <div class="">
+    <div id="participate">
         <div class="h-[5rem] w-max max-w-[100vw] mb-8 mx-auto">
         <div class="font-titilium text-white text-4xl font-extrabold mt-[3rem] py-4 text-center">WHO CAN PARTICIPATE?</div>
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>

@@ -2,7 +2,7 @@ import React from 'react'
 import prize from '../assets/prize.png'
 const Prize = () => {
   return (
-    <div>
+    <div id="prize">
         <div class="h-[5rem] w-max max-w-[100vw] mx-auto">
         <div class="font-titilium text-white text-4xl font-extrabold mt-[3rem] py-4 text-center ">WHAT'S IN IT FOR YOU?</div>
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>

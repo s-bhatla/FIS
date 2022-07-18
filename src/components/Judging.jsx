@@ -2,7 +2,7 @@ import React from "react";
 
 const Judging = () => {
   return (
-    <div>
+    <div id="judging">
         <div class="h-[5rem] w-max max-w-[100vw] mb-[4rem] mx-auto">
         <div className="font-titilium text-white text-4xl py-4 font-extrabold mt-[3rem] text-center">WHAT'S THE JUDGING CRITERA ?</div>
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>

@@ -4,7 +4,7 @@ import fintech from "../assets/fintech.png"
 import digital from "../assets/digital.png"
 const Hack = () => {
   return (
-    <div class="">
+    <div id="hack">
         <div class="h-[5rem] w-max max-w-[100vw] mb-12 mx-auto">
         <div class="font-titilium text-white text-4xl max-w-[100vw] font-extrabold mt-[3rem] py-4 text-center">THIS YEAR WE HACK FOR</div>
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
