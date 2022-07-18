@@ -35,6 +35,14 @@ body{
   }
   .event-times{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .margintop-event{
+    margin-top:4rem;
+  }
+  .margintop-small-prize{
+    margin-top: 2rem
   }
 }
 
