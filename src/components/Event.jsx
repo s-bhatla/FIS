@@ -48,7 +48,7 @@ const Event = () => {
               <div class="text-white  mt-1">10:00 a.m. to 8:00 p.m.(IST)</div>
             </div>
           </div>
-          <div className="flex flex-wrap justify-start mt-4 event-times text-[18px]">
+          <div className="flex flex-wrap justify-start closing-ceremony mt-4 content-center event-times text-[18px]">
             <div className="min-w-[16rem]">
               <div class="font-semibold gap-1 mt-4 text-[#4BCD3E] text-[24px]">
                 CLOSING CEREMONY

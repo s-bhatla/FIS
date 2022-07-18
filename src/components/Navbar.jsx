@@ -34,7 +34,7 @@ const Navbar = () => {
           <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
         </div>
 
-        <ul className={`lg:flex lg:items-center text-[16px] lg:pb-0 pb-12 absolute lg:bg-black lg:static bg-black lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12 ' : 'top-[-490px]'}`}>
+        <ul className={`lg:flex lg:items-center  text-[16px] lg:pb-0 pb-12 absolute lg:bg-black lg:static bg-black lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12 ' : 'top-[-490px]'}`}>
           {
             Links.map((link) => (
               <div>

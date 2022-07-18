@@ -44,6 +44,9 @@ body{
   .margintop-small-prize{
     margin-top: 2rem
   }
+  .closing-ceremony{
+    justify-content: center;
+  }
 }
 
 .work-div{
