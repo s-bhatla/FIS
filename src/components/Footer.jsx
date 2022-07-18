@@ -1,5 +1,4 @@
 import React from 'react'
-import RegisterButton from './RegisterButton'
 import fbimg from "../assets/fb-icon.png"
 import linkedinimg from '../assets/linkedin-icon.png'
 import twitterimg from '../assets/twitter-icon.png'
@@ -32,7 +31,7 @@ function Footer() {
                 </div>
         </div>
         <div className="copyright text-center font-light text-sm py-6">
-            ©2022 FIS. Advancing the way the world pays, banks and invests™
+            © FIS 2022. Advancing the way the world pays, banks and invests™
         </div>
     </div>
     </footer>

@@ -8,10 +8,10 @@ const Event = () => {
     </div>
     <div class="flex flex-row  flex-wrap justify-between sm:ml-[4rem] mt-8 margintop-event">
             <div className=" sm:max-w-[40vw] mx-4 text-center">
-                <div className="text-white text-md mt-[2rem] sm:mb-8">
-                Join us for this 48-hour Ideathon and create a pitch deck to show how your innovative solutions can meet the needs of current industry challenges. Propose a standalone solution, or leverage an integration with current FIS APIs and products.
+                <div className="text-white text-[16px] text-md mt-[2rem] sm:mb-8">
+                Join us for this 48-hour Ideathon and create a pitch deck to show how your innovative solutions can solve for current industry challenges. Propose a standalone solution, or leverage an integration with current FIS APIs and products.
                 </div>
-                <div className="flex flex-wrap justify-around content-center event-times">
+                <div className="flex flex-wrap justify-around content-center event-times text-[18px]">
                     <div className='min-w-[16rem]'>
                     <div class="font-semibold gap-1 mt-4 text-[#4BCD3E]">KICK OFF</div>
                     <div class="text-white  mt-2">August 20 - 21</div>
@@ -23,7 +23,7 @@ const Event = () => {
                     <div class="text-white mt-1">12:00 p.m. (IST)</div>
                     </div>
                 </div>
-                <div className="flex flex-wrap justify-around content-center mt-4 event-times"> 
+                <div className="flex flex-wrap justify-around content-center mt-4 event-times text-[18px]"> 
                     
                     <div className='min-w-[16rem]'>
                     <div class="font-semibold gap-1 mt-4 text-[#4BCD3E]">IDEATHON</div>
@@ -36,7 +36,7 @@ const Event = () => {
                     <div class="text-white  mt-1">10:00 a.m. to 8:00 p.m.(IST)</div>
                     </div>
                 </div>
-                <div className="flex flex-wrap justify-around content-center mt-4 event-times"> 
+                <div className="flex flex-wrap justify-around content-center mt-4 event-times text-[18px]"> 
                     
                     <div className='min-w-[16rem]'>
                     <div class="font-semibold gap-1 mt-4 text-[#4BCD3E]">CLOSING CEREMONY</div>

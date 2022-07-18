@@ -98,3 +98,9 @@ body{
     margin-top: 9rem;
   }
 }
+
+@media (max-width: 1234px){
+  .navbar-media{
+    margin-right: 10.5rem;
+  }
+}

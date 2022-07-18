@@ -34,7 +34,7 @@ const Navbar = () => {
           <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
         </div>
 
-        <ul className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:bg-black lg:static bg-black lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12 ' : 'top-[-490px]'}`}>
+        <ul className={`lg:flex lg:items-center text-[16px] lg:pb-0 pb-12 absolute lg:bg-black lg:static bg-black lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12 ' : 'top-[-490px]'}`}>
           {
             Links.map((link) => (
               <div>
@@ -44,14 +44,14 @@ const Navbar = () => {
               </div>
             ))
           }
-          <li key="contact" className='lg:ml-4 text-md lg:my-0 my-7 mx-[1rem]'>
+          <li key="contact" className='lg:ml-4 text-md lg:my-0 my-7 navbar-media mr-[22rem]'>
                 <a href="/"className='text-white hover:text-gray-400 duration-500'>Contact Us</a>
               </li>
           <button>
-            <a href="#" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans">Launch Event</a>
+            <a href="#" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black border-[#4BCD3E] bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans">Launch Event</a>
           </button>
           <button>
-            <a href="#" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black bg-white font-bold hover:bg-black hover:text-white btn-trans">Find out more</a>
+            <a href="#" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black  bg-white font-bold hover:bg-black hover:text-white btn-trans">Find out more</a>
           </button>
         </ul>
       </div>

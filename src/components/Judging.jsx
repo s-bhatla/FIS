@@ -10,22 +10,22 @@ const Judging = () => {
       <div className="table mx-auto margintop-small">
         <div className="flex flex-col">
           <div className="flex flex-row">
-            <div className="xx l cell font-bold text-md">
+            <div className="xx l cell font-bold text-[23px]">
               <div className="my-auto px-3">Problem Statement: 30 Points</div>
             </div>
             <div className="xx-d r cell">
-              <div className="my-auto px-3">
+              <div className="my-auto px-3 text-[18px]">
                 Did the partner identify a unique problem statement in line with
                 ideathon themes?
               </div>
             </div>
           </div>
           <div className="flex flex-row">
-            <div className="yy l cell font-bold text-md">
+            <div className="yy l cell font-bold text-md text-[23px]">
               <div className="my-auto px-3">Solution: 30 Points</div>
             </div>
             <div className="yy-d r cell">
-              <div className="my-auto px-3">
+              <div className="my-auto px-3 text-[18px]">
                 Did the solution use innovative and emerging technologies
                 resulting in an improved user experience and/or a cost/revenue
                 benefit?
@@ -33,11 +33,11 @@ const Judging = () => {
             </div>
           </div>
           <div className="flex flex-row">
-            <div className="zz l cell font-bold text-md">
+            <div className="zz l cell font-bold text-md text-[23px]">
               <div className="my-auto px-3">Co-Creation: 40 Points</div>
             </div>
             <div className="zz-d r cell">
-              <div className="my-auto px-3">
+              <div className="my-auto px-3 text-[18px]">
                 Did this solution include the use of a partner IP that can
                 shorten time to market ?
               </div>

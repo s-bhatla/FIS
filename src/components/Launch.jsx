@@ -14,7 +14,7 @@ const Launch = () => {
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
       </div>
       <div className="mt-8 mx-auto">
-        <div className="sm:max-w-[75vw] mx-auto px-4 text-center mb-[2rem] text-white">
+        <div className="sm:max-w-[75vw] mx-auto px-4 text-center mb-[2rem] text-white text-[18px]">
           Two days launch event is a prelude to InnovateIN48 Ideathon. The event
           will cover an introduction to the FIS innovation ecosystem. Learn
           about FIS products and APIs, participate in various hands-on
@@ -47,9 +47,9 @@ const Launch = () => {
       <div className="mx-auto text-2xl mt-12 text-center">
         <a
           href="#"
-          class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans"
+          class="text-[18px] inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full border-[#4BCD3E] text-black bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans"
         >
-          Register Now
+          Register
         </a>
       </div>
     </div>
