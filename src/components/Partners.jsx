@@ -9,8 +9,8 @@ const Partners = () => {
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-4"></div>
         </div>
         <div class="flex flex-wrap mt-16 mb-12 justify-center margin-top-partners">
-            <img src={aws} alt="aws" class="h-[5rem] w-[7rem] mb-8 ml-auto partner-img"></img>
-            <img src={hedara} alt="hedera" class="h-[4rem] w-[13rem] mr-auto ml-[105px] partner-img"></img>
+            <img src={aws} alt="aws" class="w-[7rem] mb-8 ml-auto partner-img"></img>
+            <img src={hedara} alt="hedera" class="h-[4.5rem] mr-auto ml-[105px] partner-img"></img>
         </div>
     </div>
   )
