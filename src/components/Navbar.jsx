@@ -10,10 +10,10 @@ const Navbar = () => {
   let [open, setOpen] = useState(false);
   return (
     <div className='shadow-md w-[100vw] fixed top-0 left-0 mb-[2rem]'>
-      <div className='lg:flex items-center justify-evenly bg-black py-3'>
+      <div className='lg:flex items-center justify-evenly bg-black py-3 px-[4rem] nav-padding-rem'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
-          <span className='text-3xl text-indigo-600 mr-1 pt-2'>
+          <span className='text-3xl text-indigo-600 mr-[39px] logo-nav pt-2'>
             <svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" width="69.427" height="29" viewBox="0 0 69.427 29">
               <path id="Path_13" data-name="Path 13" d="M131.1,188.96a1.534,1.534,0,0,0-1.533-1.535H111.855a5.719,5.719,0,1,0,0,11.434h14.222a2.653,2.653,0,0,1,0,5.3H108.372a1.533,1.533,0,1,0,0,3.066h17.705a5.717,5.717,0,1,0,0-11.431H111.855a2.652,2.652,0,0,1,0-5.3h17.707a1.534,1.534,0,0,0,1.533-1.535" transform="translate(-62.505 -178.363)" fill="#fff" />
               <path id="Path_14" data-name="Path 14" d="M94.875,176.325a2.231,2.231,0,1,0-2.231,2.231,2.231,2.231,0,0,0,2.231-2.231" transform="translate(-57.513 -174.094)" fill="#fff" />
@@ -38,20 +38,20 @@ const Navbar = () => {
           {
             Links.map((link) => (
               <div>
-              <li key={link.name} className='xl:ml-6 mx-[0.5rem] text-md lg:my-0 my-7'>
-                <a href={link.link} className='text-white hover:text-gray-400 duration-500'>{link.name}</a>
+              <li key={link.name} className='xl:ml-6 mx-[0.5rem] text-[16px] lg:my-0 my-7'>
+                <a href={link.link} className='text-white  hover:text-gray-400 duration-500'>{link.name}</a>
               </li>
               </div>
             ))
           }
-          <li key="contact" className='lg:ml-4 text-md lg:my-0 my-7 navbar-media mr-[17rem]'>
+          <li key="contact" className='lg:ml-4 text-[16px] lg:my-0 my-7 navbar-media mr-[80px]'>
                 <a href="#footer"className='text-white hover:text-gray-400 duration-500'>Contact Us</a>
               </li>
           <button>
-            <a href="#launch" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black border-[#4BCD3E] bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans">Launch Event</a>
+            <a href="#launch" class="nav-btn inline text-[18px] px-[28px] mx-1 py-[8px] leading-none border-[0.05px] rounded-full text-black border-[#4BCD3E] bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans">Launch Event</a>
           </button>
           <button>
-            <a href="#" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black  bg-white font-bold hover:bg-black hover:text-white btn-trans">Find out more</a>
+            <a href="#" class="nav-btn inline px-[28px] mx-1 py-[8px] text-[18px] leading-none border-[0.05px] rounded-full text-black  bg-white font-bold hover:bg-black hover:text-white btn-trans">Find out more</a>
           </button>
         </ul>
       </div>

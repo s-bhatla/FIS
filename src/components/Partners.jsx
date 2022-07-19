@@ -8,9 +8,9 @@ const Partners = () => {
         <div class="font-titilium text-white px-[1rem] text-4xl font-extrabold mt-[3rem] text-center">SPECIAL THANKS TO OUR PARTNERS</div>
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-4"></div>
         </div>
-        <div class="flex flex-wrap mt-16 mb-12 sm:ml-16 margin-top-partners">
-            <img src={aws} alt="aws" class="h-[5rem] w-[7rem] sm:mr-[4rem] mb-8 mx-auto"></img>
-            <img src={hedara} alt="hedera" class="h-[4rem] w-[13rem] mx-auto"></img>
+        <div class="flex flex-wrap mt-16 mb-12 justify-center margin-top-partners">
+            <img src={aws} alt="aws" class="h-[5rem] w-[7rem] mb-8 ml-auto partner-img"></img>
+            <img src={hedara} alt="hedera" class="h-[4rem] w-[13rem] mr-auto ml-[105px] partner-img"></img>
         </div>
     </div>
   )

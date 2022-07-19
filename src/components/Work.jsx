@@ -1,14 +1,14 @@
 import React from "react";
 const Work = () => {
   return (
-    <div id="work">
+    <div id="work" className="md:sm:ml-[108px]">
       <div class="h-[5rem] w-max max-w-[100vw] mx-auto">
         <div class="font-titilium text-white text-4xl font-extrabold mt-[3rem] py-4 text-center">
           HOW DOES THIS WORK?
         </div>
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
       </div>
-      <div class="flex flex-row flex-wrap mt-8 justify-between mx-4 sm:ml-[4rem] sm:mr-[5rem]">
+      <div class="flex flex-row flex-wrap mt-8 justify-between sm:mr-[108px] work-body">
         <div class="my-auto">
           <div className="text-white text-[16px] sm:max-w-[40vw] mt-[2rem]">
             To celebrate our culture of co-creation, innovation and
@@ -25,11 +25,11 @@ const Work = () => {
             to solve current industry challenges.
           </div>
         </div>
-        <div className="work-div">
-          <div className="heading py-[1rem] font-titilium text-2xl ml-[-1.25rem]">
+        <div className="work-div py-[40px] px-[62px]">
+          <div className="heading font-titilium pb-[24px] text-[1.5rem] ml-[-1.25rem]">
             SUBMISSION CHECKLIST
           </div>
-          <div className="work-checklist text-xl">
+          <div className="work-checklist text-[1.25rem]">
             <ul>
               <li>2 minute video (optional)</li>
               <li>Theme specific pitch deck with the idea</li>
@@ -38,8 +38,8 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div class="flex flex-row flex-wrap mt-[2rem] justify-between sm:justify-between mx-auto sm:ml-[4rem] event-times">
-        <div>
+      <div class="flex flex-row flex-wrap mt-[2rem] justify-between sm:justify-between mx-auto event-times">
+        <div className=" small-center">
           <div class="text-[24px] font-semibold gap-1 mt-4 text-[#4BCD3E]">
             IDENTIFY
           </div>
@@ -49,22 +49,22 @@ const Work = () => {
             documentation.
           </div>
         </div>
-        <div>
+        <div className="small-center">
           <div class="text-[24px] font-semibold gap-1 mt-4  text-[#4BCD3E]">
             IDEATE
           </div>
-          <div class="text-white text-[16px]  max-w-xs mt-4">
+          <div class="text-white text-[16px] max-w-xs mt-4">
             Join the virtual launch event to understand FIS ecosystem and FIS
             API's. Meet key industry mentors, product, and strategy
             stakeholders. Get an opportunity to interact with other
             participating start-ups. Join FIS partner workshops.
           </div>
         </div>
-        <div className="">
+        <div className="small-center">
           <div class="text-[24px] font-semibold gap-1 mt-4  text-[#4BCD3E]">
             SUBMIT
           </div>
-          <div class="text-white text-[16px] max-w-[20rem] mt-4 mr-[4rem]">
+          <div class="text-white text-[16px] max-w-[20rem] mt-4 sm:sm:mr-[108px]">
             Submissions will include a pitch deck, describing a specific problem
             statement and how the partner’s solution(standalone or via FIS
             integration) can bring innovative solutions to the table. Start-up

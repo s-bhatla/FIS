@@ -19,12 +19,12 @@ body{
 }
 
 .l {
-  min-width: 35vw;
-  max-width: 35vw;
+  min-width: 30vw;
+  max-width: 30vw;
 }
 .r{
-  min-width: 55vw;
-  max-width: 55vw;
+  min-width: 45vw;
+  max-width: 45vw;
 }
 
 
@@ -32,6 +32,22 @@ body{
 @media (max-width: 640px) {
   body{
     font-size: 90%;
+  }
+  .work-body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .event-body{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .participate-body{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .prize-body{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .event-times{
     text-align: center;
@@ -47,15 +63,34 @@ body{
   .closing-ceremony{
     justify-content: center;
   }
+  .small-center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .l {
+    min-width: 40vw;
+    max-width: 40vw;
+  }
+  .r{
+    min-width: 50vw;
+    max-width: 50vw;
+  }
+  .partner-img{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .landing{
+    padding-left: 1rem;
+  }
+
 }
 
 .work-div{
   background: rgb(0,151,117);
   background: linear-gradient(90deg, rgba(0,151,117,1) 0%, rgba(40,91,197,1) 100%);
-  padding: 1rem 3.5rem ;
   margin-left: auto;
   margin-top: auto;
-  margin-right: auto;
+  margin-right: 0;
   margin-bottom: auto;
   border-radius: 10px;
   font-size: 1.2rem;
@@ -102,9 +137,20 @@ body{
   }
 }
 
-@media (max-width: 1234px){
+@media (max-width: 1170px){
   .navbar-media{
-    margin-right: 10.5rem;
+    margin-right: 0.5rem;
+  }
+  .logo-nav{
+    mergin-right: 0px
+  }
+  .nav-padding-rem{
+    padding-right: 1rem;
+  }
+  .nav-btn{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    margin-right: 1rem !important;
   }
 }
 

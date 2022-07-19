@@ -6,8 +6,8 @@ import instaimg from '../assets/insta_icon.png'
 
 function Footer() {
   return (
-    <footer id="footer" className='text-white sm:text-left text-center max-w-[100vw]'>
-    <div>
+    <footer id="footer" className='text-white sm:text-left text-center max-w-[100vw] '>
+    <div className='sm:ml-[108px] sm:mr-[108px]'>
         <div className='grid sm:grid-cols-3 gap-4 pb-20 '>
             <div className="contactus mx-auto pl-4 pt-6">
                 <div className='font-titilium text-[30px] font-extrabold mb-4'>HAVE ANY QUESTIONS?</div>

@@ -22,7 +22,7 @@ const Launch = () => {
           Ideathon.
         </div>
       </div>
-      <div class=" my-auto grid grid-cols-1 gap-6 md:grid-cols-3 mx-auto sm:ml-[4rem] sm:mr-[5rem]">
+      <div class="my-auto grid grid-cols-1 md:grid-cols-3 mx-auto max-w-[67vw]">
         <div className="pt-10 text-center mx-auto">
           <div className="bg-[#4acc3e] h-[12rem] w-[14rem]">
             <div className="text-[8rem] font-bold">{day}</div>
@@ -47,7 +47,7 @@ const Launch = () => {
       <div className="mx-auto text-2xl mt-12 text-center">
         <a
           href="#"
-          class="text-[18px] inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full border-[#4BCD3E] text-black bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans"
+          class="text-[18px] inline px-6 py-1 leading-none border-[0.05px] rounded-full border-[#4BCD3E] text-black bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans"
         >
           Register
         </a>
