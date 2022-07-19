@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className='lg:flex items-center justify-evenly bg-black py-3 px-[4rem] nav-padding-rem'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
-          <span className='text-3xl text-indigo-600  mr-[-2rem] z-10 logo-nav pt-2'>
+          <span className='text-3xl text-indigo-600  mr-[-6rem] z-10  logo-nav'>
             <svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" width="69.427" height="29" viewBox="0 0 69.427 29">
               <path id="Path_13" data-name="Path 13" d="M131.1,188.96a1.534,1.534,0,0,0-1.533-1.535H111.855a5.719,5.719,0,1,0,0,11.434h14.222a2.653,2.653,0,0,1,0,5.3H108.372a1.533,1.533,0,1,0,0,3.066h17.705a5.717,5.717,0,1,0,0-11.431H111.855a2.652,2.652,0,0,1,0-5.3h17.707a1.534,1.534,0,0,0,1.533-1.535" transform="translate(-62.505 -178.363)" fill="#fff" />
               <path id="Path_14" data-name="Path 14" d="M94.875,176.325a2.231,2.231,0,1,0-2.231,2.231,2.231,2.231,0,0,0,2.231-2.231" transform="translate(-57.513 -174.094)" fill="#fff" />
