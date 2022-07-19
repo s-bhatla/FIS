@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 const Navbar = () => {
   let Links = [
-    { name: "Your Challenge", link: "/" },
-    { name: "About Event", link: "/" },
-    { name: "Awards", link: "/" },
-    { name: "Criteria", link: "/" },
-    { name: "Partners", link: "/" },
+    { name: "Your Challenge", link: "#challenge" },
+    { name: "About Event", link: "#event" },
+    { name: "Awards", link: "#prizes" },
+    { name: "Criteria", link: "#judging" },
+    { name: "Partners", link: "#partners" },
   ];
   let [open, setOpen] = useState(false);
   return (
@@ -45,10 +45,10 @@ const Navbar = () => {
             ))
           }
           <li key="contact" className='lg:ml-4 text-md lg:my-0 my-7 navbar-media mr-[17rem]'>
-                <a href="/"className='text-white hover:text-gray-400 duration-500'>Contact Us</a>
+                <a href="#footer"className='text-white hover:text-gray-400 duration-500'>Contact Us</a>
               </li>
           <button>
-            <a href="#" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black border-[#4BCD3E] bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans">Launch Event</a>
+            <a href="#launch" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black border-[#4BCD3E] bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans">Launch Event</a>
           </button>
           <button>
             <a href="#" class="text-md inline px-4 mx-1 py-1 leading-none border-[0.05px] rounded-full text-black  bg-white font-bold hover:bg-black hover:text-white btn-trans">Find out more</a>

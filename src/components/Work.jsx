@@ -2,17 +2,27 @@ import React from "react";
 const Work = () => {
   return (
     <div id="work">
-    <div class="h-[5rem] w-max max-w-[100vw] mx-auto">
-    <div class="font-titilium text-white text-4xl font-extrabold mt-[3rem] py-4 text-center">HOW DOES THIS WORK?</div>
-    <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
-    </div>
-    <div class="flex flex-row flex-wrap mt-8 justify-between mx-4 sm:ml-[4rem] sm:mr-[5rem]">
+      <div class="h-[5rem] w-max max-w-[100vw] mx-auto">
+        <div class="font-titilium text-white text-4xl font-extrabold mt-[3rem] py-4 text-center">
+          HOW DOES THIS WORK?
+        </div>
+        <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
+      </div>
+      <div class="flex flex-row flex-wrap mt-8 justify-between mx-4 sm:ml-[4rem] sm:mr-[5rem]">
         <div class="my-auto">
           <div className="text-white text-[16px] sm:max-w-[40vw] mt-[2rem]">
-          To celebrate our culture of co-creation, innovation and collaboration, we invite you to be a part of the virtual FIS InnovateIN48 Ideathon. This event encourages experiential learning and harnesses the possibilities of emerging technology.
+            To celebrate our culture of co-creation, innovation and
+            collaboration, we invite you to be a part of the virtual FIS
+            InnovateIN48 Ideathon. This event encourages experiential learning
+            and harnesses the possibilities of emerging technology.
           </div>
           <div className="text-white text-[16px] sm:max-w-[40vw] mt-[2rem] pb-[3rem]">
-          If you're an APAC-based start-up whose solutions align with the event's themes (data innovation, AI in fintech, and digital assets) this event is the place to be. Bring your passion for ideation, prototyping and fintech solutions to the table. Your pitch deck should explain how your solution can work within the FIS ecosystem to solve current industry challenges.
+            If you're an APAC-based start-up whose solutions align with the
+            event's themes (data innovation, AI in fintech, and digital assets)
+            this event is the place to be. Bring your passion for ideation,
+            prototyping and fintech solutions to the table. Your pitch deck
+            should explain how your solution can work within the FIS ecosystem
+            to solve current industry challenges.
           </div>
         </div>
         <div className="work-div">
@@ -54,8 +64,12 @@ const Work = () => {
           <div class="text-[24px] font-semibold gap-1 mt-4  text-[#4BCD3E]">
             SUBMIT
           </div>
-          <div class="text-white text-[16px] max-w-[20rem] mt-4">
-          Submissions will include a pitch deck, describing a specific problem statement and how the partner’s solution(standalone or via FIS integration) can bring innovative solutions to the table. Start-up can also suggest new FIS APIs that may contribute to enhancing the solution further.
+          <div class="text-white text-[16px] max-w-[20rem] mt-4 mr-[4rem]">
+            Submissions will include a pitch deck, describing a specific problem
+            statement and how the partner’s solution(standalone or via FIS
+            integration) can bring innovative solutions to the table. Start-up
+            can also suggest new FIS APIs that may contribute to enhancing the
+            solution further.
           </div>
         </div>
       </div>

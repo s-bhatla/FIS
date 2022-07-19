@@ -60,7 +60,7 @@ const Event = () => {
         </div>
         <div className="mx-4 sm:mx-0 mt-10">
           <div>
-            <img className="sm:mr-[9rem] eventimg" src={event} alt="participate"/>
+            <img className="sm:mr-[3.5rem] eventimg" src={event} alt="participate"/>
           </div>
         </div>
       </div>

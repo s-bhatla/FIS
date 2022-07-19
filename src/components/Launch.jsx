@@ -6,7 +6,7 @@ const Launch = () => {
   const [day, setDay] = useState(0);
   const [minute, setMinute] = useState(0);
   return (
-    <div>
+    <div id="launch">
       <div class="h-[5rem] w-max max-w-[100vw] mx-auto">
         <div class="font-titilium text-white text-4xl font-extrabold mt-[3rem] py-4 text-center">
           LAUNCH EVENT
