@@ -9,9 +9,9 @@ function Footer() {
     <footer id="footer" className='text-white sm:text-left text-center max-w-[100vw] '>
     <div className='sm:ml-[108px] sm:mr-[108px]'>
         <div className='grid sm:grid-cols-3 gap-4 pb-20 '>
-            <div className="contactus mx-auto pl-4 pt-6">
+            <div className="contactus mr-auto pt-6">
                 <div className='font-titilium text-[30px] font-extrabold mb-4'>HAVE ANY QUESTIONS?</div>
-                <div className='font-light text-[16px] py-6'>Send your questions to
+                <div className='font-light text-[16px] '>Send your questions to
                 <div className='text-[20px] font-normal'>IN48Partner@fisglobal.com</div></div>
             </div>
             <div className="connected mx-auto pt-6">
@@ -24,7 +24,7 @@ function Footer() {
 
                 </div>
             </div>
-                <div className='support mx-auto pt-6'>
+                <div className='support ml-auto pt-6'>
                     <a href=""><div className='py-2 pt-0'>Customer Support  <span className='arrow'>˃</span></div></a>
                     <a href=""><div className='py-2'>Terms of Use  <span className='arrow'>˃</span></div></a>
                     <a href=""><div className='py-2'>Privacy Policy  <span className='arrow'>˃</span></div></a>
