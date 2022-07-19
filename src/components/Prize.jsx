@@ -25,7 +25,7 @@ const Prize = () => {
                  • Win cloud credits
                 </div>
             </div>
-                <div className="mr-12 mt-4">
+                <div className="mr-[9rem] mt-4">
                     <div><img src={prize} alt="participate" /></div>
                 </div>
         </div>
