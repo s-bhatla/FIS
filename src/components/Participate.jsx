@@ -25,7 +25,7 @@ const Participate = () => {
                 Start-ups having innovating automation and integration platforms.
                 </div>
             </div>
-                    <div className="mr-12"><img src={participate} alt="participate" /></div>
+                    <div className="mr-[9rem]"><img src={participate} alt="participate" /></div>
         </div>
     </div>
   )
