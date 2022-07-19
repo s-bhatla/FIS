@@ -8,7 +8,7 @@ const Challenge = () => {
     <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
     </div>
         <div className="mt-8 mx-auto">
-            <div className="sm:max-w-[65vw] mx-auto px-4 text-[16px] text-center mb-[2rem] text-white">This is a 48-hour virtual event that is open to start-ups in APAC that are working on complementary or augmented solutions that align with the event's themes. Participants will study the FIS ecosystem using publicly available products and API documentation. Submissions will include a theme-specific pitch deck that defined problem statement and how the proposed solution is offered. The solution could be either a standalone or integrate with FIS APIs. Participants can also suggest new APIs that may help to enhance the solution further.</div>
+            <div className="sm:max-w-[70vw] mx-auto px-4 text-[16px] text-center mb-[2rem] text-white">This is a 48-hour virtual event that is open to start-ups in APAC that are working on complementary or augmented solutions that align with the event's themes. Participants will study the FIS ecosystem using publicly available products and API documentation. Submissions will include a theme-specific pitch deck that defined problem statement and how the proposed solution is offered. The solution could be either a standalone or integrate with FIS APIs. Participants can also suggest new APIs that may help to enhance the solution further.</div>
             <img src={work} class="mx-auto " alt="chess"></img>
         </div>
     </div>

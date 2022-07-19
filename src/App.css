@@ -29,7 +29,7 @@ body{
 
 
 
-@media (max-width: 640px) {
+@media (max-width: 840px) {
   body{
     font-size: 90%;
   }
@@ -40,6 +40,10 @@ body{
   .event-body{
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .eventimg{
+    margin-right: auto;
+    margin-left: auto;
   }
   .participate-body{
     padding-left: 2rem;
@@ -53,6 +57,7 @@ body{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+
   }
   .margintop-event{
     margin-top:4rem;
@@ -152,6 +157,48 @@ body{
   }
 }
 
-.eventimg{
-  height: 80vh;
+
+@media (max-width: 1175px){
+  .work-div{
+    font-size: 16px;
+    padding-right: 16px;
+    padding-left: 32px;
+  }
+  .work-div .heading{
+    font-size: 20px;
+  }
+  
+}
+
+
+@media (max-width: 878px) {
+  .work-body-text{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media (max-width: 1057px) {
+  .work-div{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .work-body{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1057px) {
+  .eventimg{
+    max-width: 65vw;
+  }
+}
+
+
+@media(min-width: 840px) and (max-width: 1357px) {
+  .eventimg{
+    width:35vw;
+  }
 }

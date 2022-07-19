@@ -9,14 +9,14 @@ const Work = () => {
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
       </div>
       <div class="flex flex-row flex-wrap mt-8 justify-between sm:mr-[108px] work-body">
-        <div class="my-auto">
-          <div className="text-white text-[16px] sm:max-w-[45vw] mt-[2rem]">
+        <div class="my-auto work-body-text">
+          <div className="text-white text-[16px] sm:max-w-[35vw] mt-[2rem]">
             To celebrate our culture of co-creation, innovation and
             collaboration, we invite you to be a part of the virtual FIS
             InnovateIN48 Ideathon. This event encourages experiential learning
             and harnesses the possibilities of emerging technology.
           </div>
-          <div className="text-white text-[16px] sm:max-w-[45vw] mt-[2rem] pb-[3rem]">
+          <div className="text-white text-[16px] sm:max-w-[35vw] mt-[2rem] pb-[3rem]">
             If you're an APAC-based start-up whose solutions align with the
             event's themes (data innovation, AI in fintech, and digital assets)
             this event is the place to be. Bring your passion for ideation,
@@ -26,7 +26,7 @@ const Work = () => {
           </div>
         </div>
         <div className="work-div py-[40px] px-[62px]">
-          <div className="heading font-titilium pb-[24px] text-[35px] ml-[-1.25rem]">
+          <div className="heading font-titilium pb-[24px] text-[30px] ml-[-1.25rem]">
             SUBMISSION CHECKLIST
           </div>
           <div className="work-checklist text-[1.6rem]">
