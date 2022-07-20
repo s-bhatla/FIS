@@ -12,12 +12,15 @@ import Partners from "../components/Partners";
 import Prize from "../components/Prize";
 import Work from "../components/Work";
 import Banner from "../components/Landing";
+import Footer from "../components/Footer";
 
 const Wrapper = styled.div`
   --max-width: 1064px;
   --padding: 1rem;
   width: min(var(--max-width), 100% - var(--padding) * 2);
-  margin-inline: auto; ;
+  margin-inline: auto;
+  border-right: 1px solid red;
+  border-left: 1px solid red;
 `;
 
 const Landing = () => {
@@ -35,6 +38,7 @@ const Landing = () => {
         <Judging />
         <Launch />
         <Partners />
+        <Footer />
       </Wrapper>
     </>
   );

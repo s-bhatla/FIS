@@ -8,8 +8,8 @@ const Event = () => {
         </div>
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
       </div>
-      <div class="flex flex-row event-body flex-wrap justify-between closing-ceremony sm:sm:ml-[108px] mt-8 margintop-event">
-        <div className=" sm:max-w-[40vw]">
+      <div class="flex flex-row event-body  justify-between closing-ceremony  mt-8 margintop-event">
+        <div className="" style={{ width: "50%" }}>
           <div className="text-white text-[16px] text-md mt-[2rem] sm:mb-8">
             Join us for this 48-hour Ideathon and create a pitch deck to show
             how your innovative solutions can solve for current industry
@@ -58,9 +58,14 @@ const Event = () => {
             </div>
           </div>
         </div>
-        <div className="mx-4 sm:mx-0 mt-10">
+        <div className=" sm:mx-0 mt-10">
           <div>
-            <img className="sm:mr-[108px] eventimg" src={event} alt="participate"/>
+            <img
+              className="eventimg"
+              style={{ maxHeight: 517 }}
+              src={event}
+              alt="participate"
+            />
           </div>
         </div>
       </div>

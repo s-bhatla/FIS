@@ -57,7 +57,7 @@ const Work = () => {
           </div>
         </div> */}
       </div>
-      <div class="flex flex-row flex-wrap mt-[2rem] justify-between sm:justify-between mx-auto event-times">
+      <div class="flex flex-row mt-[2rem] justify-between sm:justify-between mx-auto event-times">
         <div className=" small-center">
           <div class="text-[24px] font-semibold gap-1 mt-4 text-[#4BCD3E]">
             IDENTIFY
@@ -83,7 +83,7 @@ const Work = () => {
           <div class="text-[24px] font-semibold gap-1 mt-4  text-[#4BCD3E]">
             SUBMIT
           </div>
-          <div class="text-white text-[16px] max-w-[20rem] mt-4 sm:sm:mr-[108px]">
+          <div class="text-white text-[16px] max-w-[20rem] mt-4 ">
             Submissions will include a pitch deck, describing a specific problem
             statement and how the partner’s solution(standalone or via FIS
             integration) can bring innovative solutions to the table. Start-up
