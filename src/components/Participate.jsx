@@ -12,7 +12,7 @@ const Participate = () => {
       <div class="flex participate-body flex-row max-w-[100vw] justify-between mx-auto  margintop-participate">
         <div
           className="sm:max-w-[40vw] mb-12 text-[18px]"
-          style={{ width: "45%" }}>
+          style={{ width: "45%", fontFamily: "Source Sans Pro" }}>
           <div className="text-white text-md  mt-[1rem]">
             Startups with a technology stack that can solve horizontal problems
             - Customer onboarding, churn detection, customer loyalty, data

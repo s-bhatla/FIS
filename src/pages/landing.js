@@ -38,8 +38,8 @@ const Landing = () => {
         <Judging />
         <Launch />
         <Partners />
-        <Footer />
       </Wrapper>
+      <Footer />
     </>
   );
 };

@@ -44,7 +44,7 @@ const Landing = () => {
 const Wrapper = styled.div`
   margin-top: 72px;
   background-image: url(${require("../assets/hero.png")});
-  width: 100vw;
+  /* width: 100vw; */
   height: 90vh;
   background-size: cover;
   /* background-attachment: fixed; */

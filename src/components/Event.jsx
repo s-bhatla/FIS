@@ -9,7 +9,9 @@ const Event = () => {
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
       </div>
       <div class="flex flex-row event-body  justify-between closing-ceremony  mt-8 margintop-event">
-        <div className="" style={{ width: "50%" }}>
+        <div
+          className=""
+          style={{ width: "50%", fontFamily: "Source Sans Pro" }}>
           <div className="text-white text-[16px] text-md mt-[2rem] sm:mb-8">
             Join us for this 48-hour Ideathon and create a pitch deck to show
             how your innovative solutions can solve for current industry
