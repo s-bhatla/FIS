@@ -1,14 +1,21 @@
 import React from "react";
+import styled from "styled-components/macro";
+
 const Work = () => {
   return (
-    <div id="work" className="md:sm:ml-[108px]">
-      <div class="h-[5rem] w-max max-w-[100vw] mx-auto">
+    <div
+      id="work"
+      //  className="md:sm:ml-[108px]"
+    >
+      <div
+      // class="h-[5rem] w-max max-w-[100vw] mx-auto"
+      >
         <div class="font-titilium text-white text-4xl font-extrabold mt-[3rem] py-4 text-center">
           HOW DOES THIS WORK?
         </div>
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
       </div>
-      <div class="flex flex-row flex-wrap mt-8 justify-between sm:mr-[108px] work-body">
+      <div class="flex flex-row mt-8 justify-between work-body">
         <div class="my-auto work-body-text">
           <div className="text-white text-[16px] sm:max-w-[35vw] mt-[2rem]">
             To celebrate our culture of co-creation, innovation and
@@ -25,7 +32,19 @@ const Work = () => {
             to solve current industry challenges.
           </div>
         </div>
-        <div className="work-div py-[40px] px-[62px]">
+        <SubmissionChecklistCard>
+          <div className="heading font-titilium pb-[24px] text-[30px] ml-[-1.25rem]">
+            SUBMISSION CHECKLIST
+          </div>
+          <div className="work-checklist text-[1.6rem]">
+            <ul style={{ listStyleType: "disc" }}>
+              <li>2 minute video (optional)</li>
+              <li>Theme specific pitch deck with the idea</li>
+              <li>FIS APIs used/requested (if any)</li>
+            </ul>
+          </div>
+        </SubmissionChecklistCard>
+        {/* <div className="work-div py-[40px] px-[62px]">
           <div className="heading font-titilium pb-[24px] text-[30px] ml-[-1.25rem]">
             SUBMISSION CHECKLIST
           </div>
@@ -36,7 +55,7 @@ const Work = () => {
               <li>FIS APIs used/requested (if any)</li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
       <div class="flex flex-row flex-wrap mt-[2rem] justify-between sm:justify-between mx-auto event-times">
         <div className=" small-center">
@@ -76,5 +95,18 @@ const Work = () => {
     </div>
   );
 };
+
+const SubmissionChecklistCard = styled.div`
+  --max-width: 524px;
+  width: var(--max-width);
+  border-radius: 10px;
+  background: rgb(0, 151, 117);
+  padding: 1em 2em;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 151, 117, 1) 0%,
+    rgba(40, 91, 197, 1) 100%
+  );
+`;
 
 export default Work;
