@@ -33,15 +33,19 @@ const Work = () => {
           </div>
         </div>
         <SubmissionChecklistCard>
-          <div className="heading font-titilium pb-[24px] text-[30px] ml-[-1.25rem]">
-            SUBMISSION CHECKLIST
-          </div>
-          <div className="work-checklist text-[1.6rem]">
-            <ul style={{ listStyleType: "disc" }}>
-              <li>2 minute video (optional)</li>
-              <li>Theme specific pitch deck with the idea</li>
-              <li>FIS APIs used/requested (if any)</li>
-            </ul>
+          <div className="flex flex-row justify-center align-middle">
+            <div>
+              <div className="heading font-titilium py-[12px] text-[30px] ml-[-1.25rem]">
+                SUBMISSION CHECKLIST
+              </div>
+              <div className="work-checklist text-[1.6rem]">
+                <ul style={{ listStyleType: "disc" }}>
+                  <li>2 minute video (optional)</li>
+                  <li>Theme specific pitch deck with the idea</li>
+                  <li>FIS APIs used/requested (if any)</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </SubmissionChecklistCard>
         {/* <div className="work-div py-[40px] px-[62px]">
@@ -99,7 +103,10 @@ const Work = () => {
 const SubmissionChecklistCard = styled.div`
   --max-width: 524px;
   width: var(--max-width);
+  height: fit-content;
+  max-width: fit-content;
   border-radius: 10px;
+  margin: auto auto;
   background: rgb(0, 151, 117);
   padding: 1em 2em;
   background: linear-gradient(

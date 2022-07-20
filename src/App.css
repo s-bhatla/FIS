@@ -19,12 +19,12 @@ body{
 }
 
 .l {
-  min-width: 30vw;
-  max-width: 30vw;
+  min-width: 30%;
+  max-width: 30%;
 }
 .r{
-  min-width: 45vw;
-  max-width: 45vw;
+  min-width: 67.5%;
+  max-width: 67.5%;
 }
 
 
