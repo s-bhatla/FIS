@@ -17,13 +17,13 @@ const Work = () => {
       </div>
       <div class="flex flex-row mt-8 justify-between work-body">
         <div class="my-auto work-body-text">
-          <div className="text-white text-[16px] sm:max-w-[35vw] mt-[2rem]">
+          <div className="text-white text-[16px] sm:max-w-[35vw] mt-[2rem] mr-[1rem]">
             To celebrate our culture of co-creation, innovation and
             collaboration, we invite you to be a part of the virtual FIS
             InnovateIN48 Ideathon. This event encourages experiential learning
             and harnesses the possibilities of emerging technology.
           </div>
-          <div className="text-white text-[16px] sm:max-w-[35vw] mt-[2rem] pb-[3rem]">
+          <div className="text-white text-[16px] sm:max-w-[35vw] mt-[2rem] pb-[3rem] mr-[1rem]">
             If you're an APAC-based start-up whose solutions align with the
             event's themes (data innovation, AI in fintech, and digital assets)
             this event is the place to be. Bring your passion for ideation,
@@ -89,7 +89,7 @@ const Work = () => {
           </div>
           <div class="text-white text-[16px] max-w-[20rem] mt-4 ">
             Submissions will include a pitch deck, describing a specific problem
-            statement and how the partner’s solution(standalone or via FIS
+            statement and how the partner’s solution (standalone or via FIS
             integration) can bring innovative solutions to the table. Start-up
             can also suggest new FIS APIs that may contribute to enhancing the
             solution further.

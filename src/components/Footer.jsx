@@ -52,7 +52,7 @@ function Footer() {
             </div>
           </div>
           <div className="copyright text-center font-light text-sm py-6">
-            © FIS 2022
+          © FIS 2022. Advancing the way the world pays, banks and invests™
           </div>
         </div>
       </Container>

@@ -17,9 +17,7 @@ import Launch from "./components/Launch";
 import LandingPage from "./pages/landing";
 
 const GlobalStyle = createGlobalStyle`
-  html{
-    font-family:'Titillium Web' ;
-  }
+  
 `;
 
 const Container = styled.div`

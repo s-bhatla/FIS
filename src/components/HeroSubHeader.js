@@ -8,6 +8,7 @@ const HeroSubHeader = ({ content }) => {
 const HeroTextItem = styled.p`
   font-size: 26px;
   font-weight: 600;
+  font-family: Titillium Web;
 `;
 
 export default HeroSubHeader;

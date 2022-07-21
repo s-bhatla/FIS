@@ -27,7 +27,9 @@ body{
   max-width: 67.5%;
 }
 
-
+.launch-btn{
+  visibility: hidden;
+}
 
 @media (max-width: 840px) {
   body{

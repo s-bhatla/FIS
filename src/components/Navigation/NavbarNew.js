@@ -11,7 +11,6 @@ const NavContainer = styled.nav`
   position: fixed;
   top: 0;
   width: 100vw;
-  border-bottom: 1px solid red;
   display: flex;
   align-items: center;
   background-color: black;
@@ -73,7 +72,7 @@ const NavbarNew = () => {
           </List>
         </Left>
         <ActionWrapper>
-          <NavAction label={"Launch Event"} href="#" color={colors.primary} />
+          {/* <NavAction label={"Launch Event"} href="#" color={colors.primary} /> */}
           <NavAction
             label={"Find out more"}
             href="#"
