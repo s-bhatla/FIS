@@ -17,15 +17,15 @@ const Prize = () => {
             The winning team will:
           </div>
           <div className="text-white mt-[0.5rem]">
-            • Have the opportunity to work with FIS to build a POC
+            <span className="text-[2rem]">•</span> Have the opportunity to work with FIS to build a POC
           </div>
           <div className="text-white mt-[0.5rem]">
-            • Get a fast-track application for the FIS Accelerator program
+            <span className="text-[2rem]">•</span> Get a fast-track application for the FIS Accelerator program
           </div>
           <div className="text-white mt-[0.5rem]">
-            • Receive visibility with the FIS Alliance and FIS Ventures programs
+            <span className="text-[2rem]">•</span> Receive visibility with the FIS Alliance and FIS Ventures programs
           </div>
-          <div className="text-white  mt-[0.5rem]">• Win cloud credits</div>
+          <div className="text-white  mt-[0.5rem]"><span className="text-[2rem]">•</span> Win cloud credits</div>
         </div>
         <div className=" mt-6" style={{ width: "55%" }}>
           <img src={prize} alt="participate" style={{ width: "100%" }} />

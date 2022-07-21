@@ -34,11 +34,11 @@ const Judging = () => {
           </div>
           <div className="flex flex-row">
             <div className="zz l cell font-bold text-md text-[23px]">
-              <div className="my-auto px-3">Co-Creation: 40 Points</div>
+              <div className="my-auto px-3">Co-creation: 40 Points</div>
             </div>
             <div className="zz-d r cell">
               <div className="my-auto px-3 text-[18px]">
-                Did this solution include the use of a partner IP that can
+                Did this solution include the use of a partner solution that can
                 shorten time to market ?
               </div>
             </div>
