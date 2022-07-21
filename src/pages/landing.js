@@ -19,8 +19,8 @@ const Wrapper = styled.div`
   --padding: 1rem;
   width: min(var(--max-width), 100% - var(--padding) * 2);
   margin-inline: auto;
-  border-right: 1px solid red;
-  border-left: 1px solid red;
+  /* border-right: 1px solid red;
+  border-left: 1px solid red; */
 `;
 
 const Landing = () => {

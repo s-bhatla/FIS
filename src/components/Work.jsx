@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import React from "react";
 import styled from "styled-components/macro";
 
@@ -15,7 +16,15 @@ const Work = () => {
         </div>
         <div class="h-[0.3rem] w-16 mx-auto bg-[#4acc3e] mt-2"></div>
       </div>
-      <div class="flex flex-row mt-8 justify-between work-body">
+      <div
+        class={clsx(
+          "flex",
+          "flex-col",
+          "md:flex-row",
+          "mt-8",
+          "justify-between",
+          "work-body"
+        )}>
         <div class="my-auto work-body-text">
           <div className="text-white text-[16px] sm:max-w-[35vw] mt-[2rem]">
             To celebrate our culture of co-creation, innovation and
@@ -33,18 +42,30 @@ const Work = () => {
           </div>
         </div>
         <SubmissionChecklistCard>
-          <div className="flex flex-row justify-center align-middle">
-            <div>
-              <div className="heading font-titilium py-[12px] text-[30px] ml-[-1.25rem]">
-                SUBMISSION CHECKLIST
-              </div>
-              <div className="work-checklist text-[1.6rem]">
-                <ul style={{ listStyleType: "disc" }}>
-                  <li>2 minute video (optional)</li>
-                  <li>Theme specific pitch deck with the idea</li>
-                  <li>FIS APIs used/requested (if any)</li>
-                </ul>
-              </div>
+          <div
+            className={clsx(
+              "flex",
+              "flex-col",
+              "justify-center",
+              "align-middle"
+            )}>
+            <div
+              className={clsx(
+                "heading",
+                "font-titilium",
+                "py-4",
+                "md:text-[30px]",
+                "text-2xl"
+              )}>
+              SUBMISSION CHECKLIST
+            </div>
+            <div
+              className={clsx("work-checklist", "md:text-[1.6rem]", "text-xl")}>
+              <ul className={clsx("list-disc", "pl-4")}>
+                <li>2 minute video (optional)</li>
+                <li>Theme specific pitch deck with the idea</li>
+                <li>FIS APIs used/requested (if any)</li>
+              </ul>
             </div>
           </div>
         </SubmissionChecklistCard>
@@ -61,12 +82,23 @@ const Work = () => {
           </div>
         </div> */}
       </div>
-      <div class="flex flex-row mt-[2rem] justify-between sm:justify-between mx-auto event-times">
-        <div className=" small-center">
+      <div
+        className={clsx(
+          "flex",
+          "flex-col",
+          "md:flex-row",
+          "mt-[2rem]",
+          "justify-between",
+          "sm:justify-between",
+          "mx-auto",
+          "event-times"
+        )}>
+        <div className="small-center">
           <div class="text-[24px] font-semibold gap-1 mt-4 text-[#4BCD3E]">
             IDENTIFY
           </div>
-          <div class="text-white text-[16px]  max-w-xs mt-4">
+          <div
+            className={clsx("text-white", "text-[16px]", "max-w-xs", "mt-4")}>
             Identify the relevant problem statements on the basis of this year’s
             themes, get acquainted with the FIS ecosystem, its products and API
             documentation.

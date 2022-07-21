@@ -1,5 +1,4 @@
-
-body{
+body {
   color: white;
   background-color: black;
   font-size: 125%;
@@ -9,90 +8,96 @@ body{
   width: 50%;
 } */
 
-.cell{
+.cell {
   background-color: #1d1d1d;
   margin: 0.5em 1em 0.5em 0;
   min-height: 7rem;
-  
 
   display: flex;
 }
 
-.l {
+/* .l {
   min-width: 30%;
   max-width: 30%;
-}
-.r{
+} */
+/* .r {
   min-width: 67.5%;
   max-width: 67.5%;
-}
-
-
+} */
 
 @media (max-width: 840px) {
-  body{
+  body {
     font-size: 90%;
   }
   .work-body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .event-body{
+  .event-body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .eventimg{
+  .eventimg {
     margin-right: auto;
     margin-left: auto;
   }
-  .participate-body{
+  .participate-body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .prize-body{
+  .prize-body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .event-times{
+  .event-times {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
   }
-  .margintop-event{
-    margin-top:4rem;
+  .margintop-event {
+    margin-top: 4rem;
   }
-  .margintop-small-prize{
-    margin-top: 2rem
+  .margintop-small-prize {
+    margin-top: 2rem;
   }
-  .closing-ceremony{
+  .closing-ceremony {
     justify-content: center;
   }
-  .small-center{
+  .small-center {
     margin-left: auto;
     margin-right: auto;
   }
-  .l {
-    min-width: 40vw;
-    max-width: 40vw;
-  }
-  .r{
+  /* .r {
     min-width: 50vw;
     max-width: 50vw;
-  }
-  .partner-img{
+  } */
+  .partner-img {
     margin-right: auto;
     margin-left: auto;
   }
-  .landing{
+  .landing {
     padding-left: 1rem;
   }
-
 }
 
-.work-div{
-  background: rgb(0,151,117);
-  background: linear-gradient(90deg, rgba(0,151,117,1) 0%, rgba(40,91,197,1) 100%);
+@media all and (min-width: 840px) {
+  .l {
+    min-width: 30%;
+    max-width: 30%;
+  }
+  .r {
+    min-width: 67.5%;
+    max-width: 67.5%;
+  }
+}
+
+.work-div {
+  background: rgb(0, 151, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 151, 117, 1) 0%,
+    rgba(40, 91, 197, 1) 100%
+  );
   margin-left: auto;
   margin-top: auto;
   margin-right: 0;
@@ -101,20 +106,18 @@ body{
   font-size: 1.2rem;
 }
 
-
-
-.work-div li{
+.work-div li {
   list-style-type: disc;
 }
 
-.btn-trans{
+.btn-trans {
   -moz-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
-.landing{
+.landing {
   background-image: url("./assets/hero.png");
   background-size: cover;
   height: 100vh;
@@ -123,82 +126,77 @@ body{
 }
 
 @media (max-width: 330px) {
-  .margintop-small{
+  .margintop-small {
     margin-top: 6rem;
   }
-  .margintop-small-prize{
+  .margintop-small-prize {
     margin-top: 2rem;
   }
-  .margintop-participate{
+  .margintop-participate {
     margin-top: 2.5rem;
   }
-  .margintop-event{
+  .margintop-event {
     margin-top: 4rem;
   }
-  .margin-top-partners{
+  .margin-top-partners {
     margin-top: 9rem;
   }
 }
 
-@media (max-width: 1170px){
-  .navbar-media{
+@media (max-width: 1170px) {
+  .navbar-media {
     margin-right: 0.5rem;
   }
-  .logo-nav{
-    mergin-right: 0px
+  .logo-nav {
+    mergin-right: 0px;
   }
-  .nav-padding-rem{
+  .nav-padding-rem {
     padding-right: 1rem;
   }
-  .nav-btn{
+  .nav-btn {
     padding-left: 8px !important;
     padding-right: 8px !important;
     margin-right: 1rem !important;
   }
 }
 
-
-@media (max-width: 1175px){
-  .work-div{
+@media (max-width: 1175px) {
+  .work-div {
     font-size: 16px;
     padding-right: 16px;
     padding-left: 32px;
   }
-  .work-div .heading{
+  .work-div .heading {
     font-size: 20px;
   }
-  
 }
-
 
 @media (max-width: 878px) {
-  .work-body-text{
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-
-@media (max-width: 1057px) {
-  .work-div{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .work-body{
+  .work-body-text {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
 @media (max-width: 1057px) {
-  .eventimg{
+  .work-div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .work-body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1057px) {
+  .eventimg {
     max-width: 65vw;
   }
 }
 
-
-@media(min-width: 840px) and (max-width: 1357px) {
-  .eventimg{
-    width:35vw;
+@media (min-width: 840px) and (max-width: 1357px) {
+  .eventimg {
+    width: 35vw;
   }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import clsx from "clsx";
 import styled from "styled-components/macro";
 
 import logo from "../assets/logo.png";
@@ -14,10 +15,10 @@ const Landing = () => {
         <img className="landing-img mx-auto my-auto" src={landingImg} alt="Innovate IN48"></img>
       </div> */}
       <Container>
-        <MainWrapper>
-          <div className="logo">
+        <MainWrapper className={clsx("mt-3", "!w-full", "md:!w-[70%]")}>
+          <div className={clsx("logo")}>
             <img
-              className="pb-3"
+              className={clsx("pb-3", "w-32")}
               src={logo}
               alt="Innovate India IN48 Partner Edition"></img>
           </div>
@@ -66,7 +67,7 @@ const Container = styled.div`
 `;
 
 const MainWrapper = styled.div`
-  width: 70%;
+  /* width: 70%; */
 `;
 
 export default Landing;

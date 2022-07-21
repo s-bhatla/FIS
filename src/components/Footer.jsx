@@ -4,6 +4,7 @@ import fbimg from "../assets/fb-icon.png";
 import linkedinimg from "../assets/linkedin-icon.png";
 import twitterimg from "../assets/twitter-icon.png";
 import instaimg from "../assets/insta_icon.png";
+import clsx from "clsx";
 
 function Footer() {
   return (
@@ -13,7 +14,7 @@ function Footer() {
       <Container>
         <div className="">
           <div className="grid sm:grid-cols-3 gap-4 pb-20 ">
-            <div className="contactus mr-auto pt-6">
+            <div className={clsx("contactus", "md:mr-auto", "pt-6")}>
               <div className="font-titilium text-[30px] font-extrabold mb-4">
                 HAVE ANY QUESTIONS?
               </div>
@@ -33,18 +34,18 @@ function Footer() {
                 <img src={instaimg} width="32px" className="mr-2 my-2"></img>
               </div>
             </div>
-            <div className="support ml-auto pt-6">
-              <a href="">
+            <div className={clsx("support", "md:ml-auto", "pt-6")}>
+              <a href="#/">
                 <div className="py-2 pt-0">
                   Customer Support <span className="arrow">˃</span>
                 </div>
               </a>
-              <a href="">
+              <a href="#/">
                 <div className="py-2">
                   Terms of Use <span className="arrow">˃</span>
                 </div>
               </a>
-              <a href="">
+              <a href="#/">
                 <div className="py-2">
                   Privacy Policy <span className="arrow">˃</span>
                 </div>
