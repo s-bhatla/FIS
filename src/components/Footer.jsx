@@ -13,7 +13,7 @@ function Footer() {
       className="text-white sm:text-left text-center max-w-[100vw] ">
       <Container>
         <div className="">
-          <div className="grid sm:grid-cols-3 gap-4 pb-20 ">
+          <div className="grid sm:grid-cols-2 gap-4 pb-20 ">
             <div className={clsx("contactus", "md:mr-auto", "pt-6")}>
               <div className="font-titilium text-[30px] font-extrabold mb-4">
                 HAVE ANY QUESTIONS?
@@ -34,7 +34,7 @@ function Footer() {
                 <img src={instaimg} width="32px" className="mr-2 my-2"></img>
               </div>
             </div>
-            <div className={clsx("support", "md:ml-auto", "pt-6")}>
+            {/* <div className={clsx("support", "md:ml-auto", "pt-6")}>
               <a href="#/">
                 <div className="py-2 pt-0">
                   Customer Support <span className="arrow">˃</span>
@@ -50,7 +50,7 @@ function Footer() {
                   Privacy Policy <span className="arrow">˃</span>
                 </div>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="copyright text-center font-light text-sm py-6">
           © FIS 2022. Advancing the way the world pays, banks and invests™

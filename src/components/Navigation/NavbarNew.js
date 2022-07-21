@@ -102,7 +102,7 @@ const NavbarNew = () => {
             <a href="#judging">Criteria</a>
             <a href="#partners">Partners</a>
             <a href="#contactus">Contact Us</a>
-            <a href="#" class="myButtonNav">Find out more</a>
+            <a href="http://fis.incubatehub.com" class="myButtonNav">Find out more</a>
           </div>
         </div>
       ) : (
@@ -122,7 +122,7 @@ const NavbarNew = () => {
               {/* <NavAction label={"Launch Event"} href="#" color={colors.primary} /> */}
               <NavAction
                 label={"Find out more"}
-                href="#"
+                href="http://fis.incubatehub.com"
                 color={colors.secondary}
               />
             </ActionWrapper>
