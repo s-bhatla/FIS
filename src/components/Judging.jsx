@@ -40,7 +40,7 @@ const Judging = () => {
             </div>
             <div className="zz-d r bg-[rgb(29,29,29)] h-28 mx-4 md:mx-0 flex mb-3 md:my-2 md:mr-2">
               <div className="my-auto px-3 text-[18px]">
-                Did this solution include the use of a partner IP that can
+                Did this solution include the use of a partner solution that can
                 shorten time to market ?
               </div>
             </div>

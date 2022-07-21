@@ -74,7 +74,7 @@ const Navbar = () => {
           <button>
             <a
               href="#launch"
-              class="nav-btn inline text-[18px] px-[28px] mx-1 py-[8px] leading-none border-[0.05px] rounded-full text-black border-[#4BCD3E] bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans">
+              class="nav-btn launch-btn inline text-[18px] px-[28px] mx-1 py-[8px] leading-none border-[0.05px] rounded-full text-black border-[#4BCD3E] bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans">
               Launch Event
             </a>
           </button>
