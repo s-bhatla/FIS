@@ -5,6 +5,8 @@ import NavAction from "./NavAction";
 import NavItem from "./NavItem";
 import MainLogo from "../Logo";
 import colors from "../../config/colors";
+import { useState, useEffect } from "react";
+import hamburger from "../../assets/hamburger.png";
 
 const NavContainer = styled.nav`
   height: 72px;
@@ -49,6 +51,30 @@ const ActionWrapper = styled.div`
 `;
 
 const NavbarNew = () => {
+  const [isMobile, setisMobile] = useState(false);
+
+  const handleResize = () => {
+    if (window.innerWidth < 770) {
+      setisMobile(true);
+    } else {
+      setisMobile(false);
+    }
+  };
+
+  function navfxn() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+  // create an event listener
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+  });
+
   const NavItems = [
     { name: "Your Challenge", href: "#challenge" },
     { name: "About Event", href: "#event" },
@@ -59,28 +85,51 @@ const NavbarNew = () => {
   ];
 
   return (
-    <NavContainer>
-      <Wrapper>
-        <Left>
-          <MainLogo />
-          <List>
-            {NavItems.map(({ name, href }) => (
-              <ListItem>
-                <NavItem label={name} href={href} />
-              </ListItem>
-            ))}
-          </List>
-        </Left>
-        <ActionWrapper>
-          {/* <NavAction label={"Launch Event"} href="#" color={colors.primary} /> */}
-          <NavAction
-            label={"Find out more"}
-            href="#"
-            color={colors.secondary}
-          />
-        </ActionWrapper>
-      </Wrapper>
-    </NavContainer>
+    <div>
+      {isMobile ? (
+        <div>
+          <div className="flex flex-row mobile-nav ">
+            <MainLogo />
+            
+            <a onClick={navfxn} className="ml-auto">
+              <img src={hamburger} width="62px"></img>
+            </a>
+          </div>
+          <div id="myLinks">
+            <a href="#challenge">Your Challenge</a>
+            <a href="#event">About Event</a>
+            <a href="#prizes">Awards</a>
+            <a href="#judging">Criteria</a>
+            <a href="#partners">Partners</a>
+            <a href="#contactus">Contact Us</a>
+            <a href="#" class="myButtonNav">Find out more</a>
+          </div>
+        </div>
+      ) : (
+        <NavContainer>
+          <Wrapper>
+            <Left>
+              <MainLogo />
+              <List>
+                {NavItems.map(({ name, href }) => (
+                  <ListItem>
+                    <NavItem label={name} href={href} />
+                  </ListItem>
+                ))}
+              </List>
+            </Left>
+            <ActionWrapper>
+              {/* <NavAction label={"Launch Event"} href="#" color={colors.primary} /> */}
+              <NavAction
+                label={"Find out more"}
+                href="#"
+                color={colors.secondary}
+              />
+            </ActionWrapper>
+          </Wrapper>
+        </NavContainer>
+      )}
+    </div>
   );
 };
 
