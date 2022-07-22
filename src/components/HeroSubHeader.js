@@ -4,7 +4,7 @@ import styled from "styled-components/macro";
 
 const HeroSubHeader = ({ content, className }) => {
   return (
-    <HeroTextItem className={clsx("text-lg", "md:text-2xl")}>
+    <HeroTextItem className={clsx("text-lg", "md:text-2xl", "my-[0.75rem]")}>
       {content}
     </HeroTextItem>
   );
