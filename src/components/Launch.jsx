@@ -46,7 +46,7 @@ const Launch = () => {
       </div>
       <div className="mx-auto text-2xl mt-12 text-center">
         <a
-          href="#"
+          
           class="text-[18px] inline px-6 py-1 leading-none border-[0.05px] rounded-full border-[#4BCD3E] text-black bg-[#4BCD3E] font-bold hover:bg-black hover:text-[#4BCD3E] btn-trans"
         >
           Coming Soon
