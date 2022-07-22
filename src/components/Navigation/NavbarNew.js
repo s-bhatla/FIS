@@ -89,20 +89,20 @@ const NavbarNew = () => {
       {isMobile ? (
         <div>
           <div className="flex flex-row mobile-nav ">
-            <MainLogo />
+            <span className="pl-[24px] pt-[16px]"><MainLogo /></span>
             
             <a onClick={navfxn} className="ml-auto">
               <img src={hamburger} width="62px"></img>
             </a>
           </div>
-          <div id="myLinks">
+          <div id="myLinks" className="ml-[8px]">
             <a href="#challenge">Your Challenge</a>
             <a href="#event">About Event</a>
             <a href="#prizes">Awards</a>
             <a href="#judging">Criteria</a>
             <a href="#partners">Partners</a>
             <a href="#contactus">Contact Us</a>
-            <a href="http://fis.incubatehub.com" class="myButtonNav">Find out more</a>
+            <a href="http://fis.incubatehub.com" class="myButtonNav mb-[16px]">Find out more</a>
           </div>
         </div>
       ) : (

@@ -237,9 +237,3 @@ body {
   font-size: 18px;
   font-family: "Source Sans Pro";
 } 
-
-@media (max-width: 1175px) {
-  #landing{
-    
-  }
-}
