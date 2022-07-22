@@ -11,7 +11,7 @@ const Challenge = () => {
       </div>
       <div className="mt-8 mx-auto">
         <div className="sm:max-w-[70vw] mx-auto px-4 text-[16px] text-center mb-[2rem] text-white">
-          This is a 48-hour virtual event that is open to start-ups in APAC that
+          This is a 48-hour virtual event that is open to startups in APAC that
           are working on complementary or augmented solutions that align with
           the event's themes. Participants will study the FIS ecosystem using
           publicly available products and API documentation. Submissions will

@@ -28,7 +28,7 @@ const Landing = () => {
           <TextWrapper>
             <HeroText>
               The world is changing and changing fast. Fintech is going to lead
-              the way to a better tomorrow. FIS is inviting APAC start-ups to
+              the way to a better tomorrow. FIS is inviting APAC startups to
               join the journey to create the next fintech disruption. Join this
               48-hour Ideathon to innovate around Data, AI and Web3. Create
               standalone solutions or integrate with the FIS ecosystem to build

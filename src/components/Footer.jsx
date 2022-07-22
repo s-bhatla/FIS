@@ -28,10 +28,10 @@ function Footer() {
             <div className="connected mx-auto pt-6">
               <div className="">Stay Connected</div>
               <div className="socialimgs flex justify-between">
-                <img src={fbimg} width="32px" className="mr-2 my-2"></img>
-                <img src={linkedinimg} width="32px" className="mr-2 my-2"></img>
-                <img src={twitterimg} width="32px" className="mr-2 my-2"></img>
-                <img src={instaimg} width="32px" className="mr-2 my-2"></img>
+                <a href="https://www.facebook.com/FIStoday/"><img src={fbimg} width="32px" className="mr-2 my-2"></img></a>
+                <a href="https://www.linkedin.com/company/fis/"><img src={linkedinimg} width="32px" className="mr-2 my-2"></img></a>
+                <a href="https://twitter.com/fisglobal"><img src={twitterimg} width="32px" className="mr-2 my-2"></img></a>
+                <a href="https://www.instagram.com/fis_global/"><img src={instaimg} width="32px" className="mr-2 my-2"></img></a>
               </div>
             </div>
             {/* <div className={clsx("support", "md:ml-auto", "pt-6")}>

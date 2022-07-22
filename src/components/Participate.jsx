@@ -35,7 +35,7 @@ const Participate = () => {
             marketplaces, DeFi stacks.
           </div>
           <div className="text-white text-md  mt-[1rem]">
-            Fintech start-ups with innovative business models that can augment
+            Fintech startups with innovative business models that can augment
             FIS offering and want broader reach.
           </div>
           <div className="text-white text-md  mt-[1rem]">
@@ -43,12 +43,12 @@ const Participate = () => {
             API’s.
           </div>
           <div className="text-white text-md mt-[1rem]">
-            A group of start-ups collaborating and providing new capabilities.
-            For example: Satellite imaging, drone start-ups and a radar start-up
+            A group of startups collaborating and providing new capabilities.
+            For example: Satellite imaging, drone startups and radar startups
             collaborate and provide alternate data for commodities markets.
           </div>
           <div className="text-white text-md mt-[1rem]">
-            Start-ups having innovating automation and integration platforms.
+            Startups having innovating automation and integration platforms.
           </div>
         </div>
         <div className="">

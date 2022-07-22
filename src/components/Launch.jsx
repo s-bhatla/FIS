@@ -18,7 +18,7 @@ const Launch = () => {
           Two days launch event is a prelude to InnovateIN48 Ideathon. The event
           will cover an introduction to the FIS innovation ecosystem. Learn
           about FIS products and APIs, participate in various hands-on
-          workshops. This event is designed to help start-ups prepare for the
+          workshops. This event is designed to help startups prepare for the
           Ideathon.
         </div>
       </div>

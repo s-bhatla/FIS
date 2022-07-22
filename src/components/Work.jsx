@@ -33,7 +33,7 @@ const Work = () => {
             and harnesses the possibilities of emerging technology.
           </div>
           <div className="text-white text-[16px] sm:max-w-[35vw] mt-[2rem] pb-[3rem] mr-[1rem]">
-            If you're an APAC-based start-up whose solutions align with the
+            If you're an APAC-based startup whose solutions align with the
             event's themes (data innovation, AI in fintech, and digital assets)
             this event is the place to be. Bring your passion for ideation,
             prototyping and fintech solutions to the table. Your pitch deck
@@ -112,7 +112,7 @@ const Work = () => {
             Join the virtual launch event to understand FIS ecosystem and FIS
             API's. Meet key industry mentors, product, and strategy
             stakeholders. Get an opportunity to interact with other
-            participating start-ups. Join FIS partner workshops.
+            participating startups. Join FIS partner workshops.
           </div>
         </div>
         <div className="small-center">
@@ -122,7 +122,7 @@ const Work = () => {
           <div class="text-white text-[16px] max-w-[20rem] mt-4 ">
             Submissions will include a pitch deck, describing a specific problem
             statement and how the partner’s solution (standalone or via FIS
-            integration) can bring innovative solutions to the table. Start-up
+            integration) can bring innovative solutions to the table. Startups
             can also suggest new FIS APIs that may contribute to enhancing the
             solution further.
           </div>

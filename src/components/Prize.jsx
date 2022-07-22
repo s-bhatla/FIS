@@ -24,21 +24,34 @@ const Prize = () => {
           "font-Source",
           "font-normal"
         )}>
-        <div className={clsx("my-auto", "md:w-2/6")}>
+        {/* <div className={clsx("my-auto", "md:w-2/6")}>
           <div className="text-white mt-[2rem] font-semibold">
             The winning team will:
           </div>
           <div className="text-white mt-[0.5rem]">
-            <span className="text-[2rem]">•</span> Have the opportunity to work with FIS to build a POC
+            <span className="text-[1.35rem]">●</span> Have the opportunity to work with FIS to build a POC
           </div>
           <div className="text-white mt-[0.5rem]">
-            <span className="text-[2rem]">•</span> Get a fast-track application for the FIS Accelerator program
+          <span className="text-[1.35rem]">●</span> Get a fast-track application for the FIS Accelerator program
           </div>
           <div className="text-white mt-[0.5rem]">
-            <span className="text-[2rem]">•</span> Receive visibility with the FIS Alliance and FIS Ventures programs
+          <span className="text-[1.35rem]">●</span>Receive visibility with the FIS Alliance and FIS Ventures programs
           </div>
-          <div className="text-white  mt-[0.5rem]"><span className="text-[2rem]">•</span> Win cloud credits</div>
-        </div>
+          <div className="text-white  mt-[0.5rem]"><span className="text-[1.35rem]">●</span> Win cloud credits</div>
+        </div> */}
+
+        <div className={clsx("my-auto", "md:w-2/6")}>
+          <div className="text-white mt-[2rem] font-semibold">
+            The winning team will:
+          </div>
+            <ul className=" prize-list">
+              <li>Have the opportunity to work with FIS to build a POC</li>
+              <li>Get a fast-track application for the FIS Accelerator program</li>
+              <li>Receive visibility with the FIS Alliance and FIS Ventures programs</li>
+              <li>Win cloud credits</li>
+            </ul>
+          </div>
+
         <div className={clsx("mt-6", "md:w-2/4")}>
           <img src={prize} alt="participate" style={{ width: "100%" }} />
         </div>

@@ -237,3 +237,14 @@ body {
   font-size: 18px;
   font-family: "Source Sans Pro";
 } 
+
+.prize-list {
+  list-style: disc !important;
+}
+
+.prize-list li::marker{
+  content:"● ";
+  font-size: 1.5rem;
+  color: white;
+  vertical-align: bottom;
+}
