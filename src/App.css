@@ -200,17 +200,46 @@ body {
     width: 35vw;
   }
 
-  .myButtonNav {
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
-    cursor: pointer;
-    color: #000000 !important;
-    max-width: fit-content;
-    margin-right: auto;
-    margin-left: 0 !important;
-    padding: 0.35em 1.5em;
-    border-radius: 25px;
-    font-size: 18px;
-    font-family: "Source Sans Pro";
+  
+}
+
+.mobile-nav{
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+
+#myLinks {
+  display:none;
+  transition: ease-in-out;
+}
+
+#myLinks a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  margin-left: auto;
+  /* margin-right: auto; */
+}
+
+.myButtonNav {
+	background-color:#ffffff;
+	border:1px solid #ffffff;
+	cursor:pointer;
+	color:#000000 !important;
+  max-width: fit-content;
+  margin-right: auto;
+  margin-left: 0 !important;  
+  padding: 0.35em 1.5em;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+} 
+
+@media (max-width: 1175px) {
+  #landing{
+    
   }
 }
